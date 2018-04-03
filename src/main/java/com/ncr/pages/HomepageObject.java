@@ -105,6 +105,10 @@ public class HomepageObject extends BasePageObject<HomepageObject> {
         return getText(copyright);
     }
 
+    public LoginPageObject openLoginPage() throws IOException {
+        clickOn(loginButton);
+        return new LoginPageObject(driver);
+    }
 
 
 }
