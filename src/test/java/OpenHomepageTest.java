@@ -47,6 +47,7 @@ public class OpenHomepageTest extends BaseTest {
         String expectedTitle = "NCare";
         Assert.assertTrue(actualTitle.equals(expectedTitle), "The page title is not correct !" + "\nExpected: " + expectedTitle + "\nActual: " + actualTitle);
         System.out.println("The page title is correct !");
+        System.out.println("Test passed !");
     }
 
 }

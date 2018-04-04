@@ -1,7 +1,8 @@
 import com.ncr.base.BaseTest;
-import com.ncr.pages.DashboardPageObject;
+import com.ncr.pages.DashboardHCPPageObject;
 import com.ncr.pages.HomepageObject;
 import com.ncr.pages.LoginPageObject;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -21,10 +22,11 @@ public class LoginTestPositive extends BaseTest{
         String[] credentials = loginpage.getCredentials("D:\\Access Credentials\\ncare_login.txt");
         loginpage.typeEmail(credentials[0]);
         loginpage.typePass(credentials[1]);
-        DashboardPageObject dashboard = loginpage.submit();
-
-
-
-
+        DashboardHCPPageObject dashboard = loginpage.submit();
+        dashboard.waitForPageToLoad();
+        String expectedMsg = dashboard.welcomeMsg();
+        String actualMsg = dashboard.getWelcomeText();
+        Assert.assertTrue(expectedMsg.equals(actualMsg), "Welcome message not correct !" + "\nExpected: " + expectedMsg + "\nActual: " + actualMsg);
+        System.out.println("Test passed !");
     }
 }

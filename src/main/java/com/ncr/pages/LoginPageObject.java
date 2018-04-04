@@ -41,9 +41,9 @@ public class LoginPageObject extends BasePageObject<LoginPageObject> {
         type(pass, passwordF);
     }
 
-    public DashboardPageObject submit() throws IOException {
+    public DashboardHCPPageObject submit() throws IOException {
         clickOn(loginB);
-        return new DashboardPageObject(driver);
+        return new DashboardHCPPageObject(driver);
     }
 
 
