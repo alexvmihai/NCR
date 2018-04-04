@@ -29,8 +29,8 @@
       <file leaf-file-name="OpenHomepageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/OpenHomepageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+            <state relative-caret-position="833">
+              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +41,8 @@
       <file leaf-file-name="LoginTestPositive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/LoginTestPositive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="493">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,16 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DashboardHCPPageObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/DashboardHCPPageObject.java">
+      <file leaf-file-name="LoginTestNegative.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/LoginTestNegative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="340">
+              <caret line="20" column="98" selection-start-line="20" selection-start-column="98" selection-end-line="20" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1444#1445#0" expanded="true" />
-                <element signature="e#1483#1484#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginPageObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/LoginPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -104,6 +111,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/DashboardHCPPageObject.java" />
         <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/DashboardHCPPageObject.java" />
         <option value="$PROJECT_DIR$/../NHSNCR/src/test/java/LoginTestPositive.java" />
+        <option value="$PROJECT_DIR$/../NHSNCR/src/test/java/OpenHomepageTest.java" />
+        <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/LoginPageObject.java" />
+        <option value="$PROJECT_DIR$/../NHSNCR/src/test/java/LoginTestNegative.java" />
         <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/base/BaseTest.java" />
       </list>
     </option>
@@ -251,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTestPositive">
+  <component name="RunManager" selected="TestNG.LoginTestNegative">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -273,6 +283,29 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="LoginTestNegative" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NHSNCR" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTestNegative" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration name="LoginTestPositive" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NHSNCR" />
@@ -475,9 +508,11 @@
     <list>
       <item itemvalue="TestNG.OpenHomepageTest" />
       <item itemvalue="TestNG.LoginTestPositive" />
+      <item itemvalue="TestNG.LoginTestNegative" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTestNegative" />
         <item itemvalue="TestNG.LoginTestPositive" />
         <item itemvalue="TestNG.OpenHomepageTest" />
       </list>
@@ -497,24 +532,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpenHomepageTest - 2018.04.03 at 14h 38m 56s.xml">
-      <configuration name="OpenHomepageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenHomepageTest - 2018.04.03 at 14h 40m 13s.xml">
-      <configuration name="OpenHomepageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenHomepageTest - 2018.04.03 at 14h 41m 49s.xml">
-      <configuration name="OpenHomepageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenHomepageTest - 2018.04.03 at 14h 47m 57s.xml">
-      <configuration name="OpenHomepageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenHomepageTest - 2018.04.03 at 14h 48m 50s.xml">
-      <configuration name="OpenHomepageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenHomepageTest - 2018.04.03 at 17h 37m 47s.xml">
-      <configuration name="OpenHomepageTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="OpenHomepageTest - 2018.04.03 at 17h 59m 08s.xml">
       <configuration name="OpenHomepageTest" configurationId="TestNG" />
     </history-entry>
@@ -526,6 +543,24 @@
     </history-entry>
     <history-entry file="LoginTestPositive - 2018.04.04 at 14h 10m 49s.xml">
       <configuration name="LoginTestPositive" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestPositive - 2018.04.04 at 14h 12m 56s.xml">
+      <configuration name="LoginTestPositive" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestNegative - 2018.04.04 at 14h 52m 09s.xml">
+      <configuration name="LoginTestNegative" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestNegative - 2018.04.04 at 14h 52m 41s.xml">
+      <configuration name="LoginTestNegative" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestNegative - 2018.04.04 at 14h 54m 49s.xml">
+      <configuration name="LoginTestNegative" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestNegative - 2018.04.04 at 14h 55m 59s.xml">
+      <configuration name="LoginTestNegative" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestNegative - 2018.04.04 at 14h 56m 46s.xml">
+      <configuration name="LoginTestNegative" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -717,16 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/OpenHomepageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/HomepageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
@@ -745,24 +770,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/LoginPageObject.java">
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/OpenHomepageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <element signature="imports" />
-            <element signature="e#1201#1202#0" />
-            <element signature="e#1236#1237#0" />
-            <element signature="e#1277#1278#0" />
-            <element signature="e#1314#1315#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/LoginTestPositive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="833">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -777,6 +788,33 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1444#1445#0" expanded="true" />
             <element signature="e#1483#1484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/LoginTestPositive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/LoginPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/LoginTestNegative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="98" selection-start-line="20" selection-start-column="98" selection-end-line="20" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

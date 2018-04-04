@@ -17,6 +17,7 @@ public class LoginPageObject extends BasePageObject<LoginPageObject> {
     private By backB = By.cssSelector(".back-link > a:nth-child(1)");
     private By header = By.cssSelector(".page-title > h1:nth-child(1)");
     private By leftBlock = By.cssSelector(".why-register");
+    private By errorMsg = By.cssSelector(".error-msg > ul:nth-child(1) > li:nth-child(1) > span:nth-child(1)");
 
     protected LoginPageObject(WebDriver driver) throws IOException {
         super(driver);
@@ -44,6 +45,11 @@ public class LoginPageObject extends BasePageObject<LoginPageObject> {
     public DashboardHCPPageObject submit() throws IOException {
         clickOn(loginB);
         return new DashboardHCPPageObject(driver);
+    }
+
+    public String getErrorText(){
+        waitForVisibilityOf(errorMsg);
+        return getText(errorMsg);
     }
 
 
