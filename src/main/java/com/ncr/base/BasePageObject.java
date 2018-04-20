@@ -108,19 +108,40 @@ public class BasePageObject<T> extends BaseTest {
         builder.moveToElement(element).perform();
     }
 
-    public String[] getCredentials(String filePath) throws IOException {
+    public String[] getCredentials() throws IOException {
         if (setEnv() == "PPRD"){
             Properties properties = new Properties();
-            properties.load(new FileInputStream(filePath));
+            properties.load(new FileInputStream("D:\\Access Credentials\\ncare_login.txt"));
             String userName = properties.getProperty("username_pprd");
             String password = properties.getProperty("password_pprd");
             String[] credentials ={userName, password};
             return credentials;
         } else if (setEnv() == "PROD"){
             Properties properties = new Properties();
-            properties.load(new FileInputStream(filePath));
+            properties.load(new FileInputStream("D:\\Access Credentials\\ncare_login.txt"));
             String userName = properties.getProperty("username_prod");
             String password = properties.getProperty("password_prod");
+            System.out.println("PROD !!!!");
+            String[] credentials ={userName, password};
+            return credentials;
+        }else{
+            return null;
+        }
+    }
+
+    public String[] getAdminCredentials() throws IOException {
+        if (setEnv() == "PPRD"){
+            Properties properties = new Properties();
+            properties.load(new FileInputStream("D:\\Access Credentials\\ncare_login.txt"));
+            String userName = properties.getProperty("username_admin_pprd");
+            String password = properties.getProperty("password_admin_pprd");
+            String[] credentials ={userName, password};
+            return credentials;
+        } else if (setEnv() == "PROD"){
+            Properties properties = new Properties();
+            properties.load(new FileInputStream("D:\\Access Credentials\\ncare_login.txt"));
+            String userName = properties.getProperty("username_admin_prod");
+            String password = properties.getProperty("password_admin_prod");
             System.out.println("PROD !!!!");
             String[] credentials ={userName, password};
             return credentials;

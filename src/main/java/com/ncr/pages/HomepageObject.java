@@ -41,6 +41,7 @@ public class HomepageObject extends BasePageObject<HomepageObject> {
 
 
 
+
     public HomepageObject(WebDriver driver) throws IOException {
         super(driver);
     }
@@ -108,6 +109,11 @@ public class HomepageObject extends BasePageObject<HomepageObject> {
     public LoginPageObject openLoginPage() throws IOException {
         clickOn(loginButton);
         return new LoginPageObject(driver);
+    }
+
+    public RegisterPageObject openRegisterPage() throws IOException {
+        clickOn(registerButton);
+        return new RegisterPageObject(driver);
     }
 
 

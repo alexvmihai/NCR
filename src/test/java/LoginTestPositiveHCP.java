@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * Created by alex.mihai on 4/3/2018.
  */
-public class LoginTestPositive extends BaseTest{
+public class LoginTestPositiveHCP extends BaseTest{
     @Test
     public void loginTestPositive() throws IOException, InterruptedException {
         HomepageObject homepage = new HomepageObject(driver);
@@ -19,7 +19,7 @@ public class LoginTestPositive extends BaseTest{
         homepage.waitForPageToLoad();
         LoginPageObject loginpage = homepage.openLoginPage();
         loginpage.waitForPageToLoad();
-        String[] credentials = loginpage.getCredentials("D:\\Access Credentials\\ncare_login.txt");
+        String[] credentials = loginpage.getCredentials();
         loginpage.typeEmail(credentials[0]);
         loginpage.typePass(credentials[1]);
         DashboardHCPPageObject dashboard = loginpage.submit();

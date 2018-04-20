@@ -42,9 +42,9 @@ public class DashboardHCPPageObject extends BasePageObject<DashboardHCPPageObjec
     public String welcomeMsg(){
         String welcomeMsg = "";
         if(setEnv() == "PROD"){
-            welcomeMsg = "Welcome, Alex mihai!";
+            welcomeMsg = "Welcome, MR Smoke Optaros!";
         } else if(setEnv() == "PPRD"){
-            welcomeMsg = "Welcome, MR Alex Mihai!";
+            welcomeMsg = "Welcome, MR Smoke Optaros!";
         }
         return welcomeMsg;
     }
