@@ -1,5 +1,6 @@
 import com.ncr.base.BaseTest;
 import com.ncr.pages.*;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -21,7 +22,8 @@ public class HCPRegisterTest extends BaseTest {
         String title = "Mr";
         String firstname = "Alex";
         String lastname = "Automated";
-        registerPage.fillForm(title, firstname, lastname, email, "NCare Test Hospital", "Smoketest1234/");
+        String password = "Smoketest1234/";
+        registerPage.fillForm(title, firstname, lastname, email, "NCare Test Hospital", password);
         RegistrationSuccessPageObject succesPage = registerPage.submitForm();
         succesPage.waitForPageToLoad();
         String expectedHeaderText = "REGISTRATION COMPLETED";
@@ -40,6 +42,11 @@ public class HCPRegisterTest extends BaseTest {
         beLoginPage.typeUsername(credentials[0]);
         beLoginPage.typePassword(credentials[1]);
         BackEndDashboardPageObject dashboard = beLoginPage.login();
+        if(dashboard.isPopUpPresent()){
+            dashboard.closePopUp();
+        } else {
+            System.out.println("No pop-up here !");
+        }
         dashboard.waitForPageToLoad();
         dashboard.mouseOverCustomers();
         BEManageCustomersPageObject manageCustomers = dashboard.clickManageCustomers();
@@ -51,6 +58,29 @@ public class HCPRegisterTest extends BaseTest {
         String actualName = customerInfoPage.getHeaderText();
         Assert.assertTrue(expectedName.equals(actualName), "Customer Name not correct !" + "\nExpected: " + expectedName + "\nActual: " + actualName);
         System.out.println("The customer name is correct !!");
+        customerInfoPage.openAccountInfo();
+        customerInfoPage.setActive();
+        customerInfoPage.saveCustomer();
+        String expectedMessage = "The customer has been saved.";
+        String actualMessage = customerInfoPage.getSuccessMessage();
+        Assert.assertTrue(expectedMessage.equals(actualMessage), "The success message doesn't match !" + "\nExpected: " + expectedMessage + "\nActual: " + actualMessage);
+        System.out.println("The success message matches !");
+
+        //Log in with the new account
+        HomepageObject homepage2 = new HomepageObject(driver);
+        homepage2.openHomepage();
+        homepage2.acceptPrompt();
+        homepage.waitForPageToLoad();
+        LoginPageObject loginPage2 = homepage.openLoginPage();
+        loginPage2.waitForPageToLoad();
+        loginPage2.typePass(password);
+        loginPage2.typeEmail(email);
+        DashboardHCPPageObject dashboard2 = loginPage2.submit();
+        dashboard2.waitForPageToLoad();
+        String expectedHCPMsg = "Welcome, Mr Alex Automated!";
+        String actualHCPMsg = dashboard2.getWelcomeText();
+        Assert.assertTrue(expectedHCPMsg.equals(actualHCPMsg), "The dashboard message doesn't match !" + "\nExpected: " + expectedHCPMsg + "\nActual: " + actualHCPMsg);
+        System.out.println("Test passed !");
 
 
     }

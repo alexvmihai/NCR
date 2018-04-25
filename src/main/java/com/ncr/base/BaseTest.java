@@ -24,9 +24,9 @@ public class BaseTest  {
         return env;
     }
 
-//    @AfterClass
-//    public void methodTearDown(){
-//        System.out.println("Test clean up !");
-//        driver.quit();
-//    }
+    @AfterClass
+    public void methodTearDown(){
+        System.out.println("Test clean up !");
+        driver.quit();
+    }
 }
