@@ -21,7 +21,7 @@ public class DashboardHCPPageObject extends BasePageObject<DashboardHCPPageObjec
 
 
 
-    protected DashboardHCPPageObject(WebDriver driver) throws IOException {
+    public DashboardHCPPageObject(WebDriver driver) throws IOException {
         super(driver);
     }
 
@@ -47,5 +47,10 @@ public class DashboardHCPPageObject extends BasePageObject<DashboardHCPPageObjec
             welcomeMsg = "Welcome, MR Smoke Optaros!";
         }
         return welcomeMsg;
+    }
+
+    public PatientRegisterPageObject clickPatientCreate() throws IOException{
+        clickOn(createPatientB);
+        return new PatientRegisterPageObject(driver);
     }
 }
