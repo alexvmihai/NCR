@@ -13,7 +13,7 @@ public class PatientConfirmationPageObject extends BasePageObject<PatientConfirm
     private By createRegimenB = By.cssSelector("button.button:nth-child(2)");
 
 
-    protected PatientConfirmationPageObject(WebDriver driver) throws IOException {
+    public PatientConfirmationPageObject(WebDriver driver) throws IOException {
         super(driver);
     }
 
@@ -30,5 +30,10 @@ public class PatientConfirmationPageObject extends BasePageObject<PatientConfirm
 
     public String getConfirmationText(){
         return getText(confirmationText);
+    }
+
+    public RegimenStep1PageObject createRegimen() throws IOException {
+        clickOn(createRegimenB);
+        return new RegimenStep1PageObject(driver);
     }
 }
