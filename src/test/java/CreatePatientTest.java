@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class CreatePatientTest extends LoginTestPositiveHCP {
     @Test(priority=2)
-    public void CreatePatientTest() throws IOException {
+    public void CreatePatientTest() throws IOException, InterruptedException {
         DashboardHCPPageObject dashboard = new DashboardHCPPageObject(driver);
         dashboard.waitForPageToLoad();
         PatientRegisterPageObject patientRegisterPage = dashboard.clickPatientCreate();
@@ -20,7 +20,7 @@ public class CreatePatientTest extends LoginTestPositiveHCP {
         String firstname = "Firstname" + Random;
         String lastname = "Lastname" + Random;
         patientRegisterPage.fillRegisterForm(firstname, lastname, "10101910", email, "2039192931", "Red Hill 24", "Sidney",
-                "New South Wales", "2123", "Australia");
+                "New South Wales", "0150", "Australia");
         PatientConfirmationPageObject patientConfirmPage = patientRegisterPage.submitForm();
         patientConfirmPage.waitForPageToLoad();
 

@@ -1,4 +1,5 @@
 import com.ncr.pages.PatientConfirmationPageObject;
+import com.ncr.pages.RegimenSavedPageObject;
 import com.ncr.pages.RegimenStep1PageObject;
 import com.ncr.pages.RegimenStep2PageObject;
 import org.testng.Assert;
@@ -22,6 +23,22 @@ public class CreateRegimenTest extends CreatePatientTest{
         RegimenStep2PageObject regimenStep2 = regimenStep1.clickContinue();
         regimenStep2.waitForPageToLoad();
         System.out.println("RegimenStep2 page successfully loaded !");
+        regimenStep2.selectShipping();
+        regimenStep2.selectStartDate();
+        if(regimenStep2.weekendPopExists){
+            regimenStep2.closeWeekendPopup();
+        } else {
+            System.out.println("Moving on..");
+        }
+        RegimenSavedPageObject regimenSavedPage = regimenStep2.submitRegimen();
+        regimenSavedPage.waitForPageToLoad();
+        String expectedText = "This regimen is complete and active.\n" +
+                "You will be able to edit it later if required.";
+        String actualText = regimenSavedPage.getConfirmationText();
+        Assert.assertTrue(expectedText.equals(actualText), "The confirmation message is not correct !" + "\nExpected: " + expectedText + "\nActual: " + actualText);
+        System.out.println("Regimen created successfully, going back to the patient...");
+
+        //To add the patient page part after the button is fixed
 
 
     }

@@ -10,7 +10,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.TimeZone;
 
@@ -98,8 +100,19 @@ public class BasePageObject<T> extends BaseTest {
 
     public String getCurrentDate(){
         Date date = new Date();
-        SimpleDateFormat formatter = new SimpleDateFormat("EEEEEEEEEEE d MMMMMMMM");
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         formatter.setTimeZone(TimeZone.getTimeZone("Australia/Sydney"));
+        return formatter.format(date);
+    }
+
+    public String getFutureDate(){
+        Date date = new Date();
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(date);
+        calendar.add(Calendar.DATE, 3);
+        date = calendar.getTime();
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+        formatter.setTimeZone(TimeZone.getTimeZone("Australia/Sidney"));
         return formatter.format(date);
     }
 
@@ -175,7 +188,10 @@ public class BasePageObject<T> extends BaseTest {
         } else {
             return null;
         }
+
     }
+
+
 
 
 

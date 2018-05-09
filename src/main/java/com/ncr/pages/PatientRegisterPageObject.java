@@ -36,11 +36,12 @@ public class PatientRegisterPageObject extends BasePageObject<PatientRegisterPag
     }
 
     public void fillRegisterForm(String firstname, String lastname, String dob, String email, String number, String address, String town, String state,
-                                 String postcode, String country){
+                                 String postcode, String country) throws InterruptedException {
         System.out.println("Typing patient details...");
         type(firstname, firstnameF);
         type(lastname, lastnameF);
         clickOn(dobF);
+        Thread.sleep(2000);
         type(dob, dobF);
         type(email, emailF);
         type(number, contactF);
