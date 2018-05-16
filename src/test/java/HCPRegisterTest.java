@@ -21,7 +21,7 @@ public class HCPRegisterTest extends BaseTest {
         String email = "amihai_test" + Random + "@mailinator.com";
         String title = "Mr";
         String firstname = "Alex";
-        String lastname = "Automated";
+        String lastname = "Automated" + Random;
         String password = "Smoketest1234/";
         registerPage.fillForm(title, firstname, lastname, email, "NCare Test Hospital", password);
         RegistrationSuccessPageObject succesPage = registerPage.submitForm();
@@ -77,7 +77,7 @@ public class HCPRegisterTest extends BaseTest {
         loginPage2.typeEmail(email);
         DashboardHCPPageObject dashboard2 = loginPage2.submit();
         dashboard2.waitForPageToLoad();
-        String expectedHCPMsg = "Welcome, Mr Alex Automated!";
+        String expectedHCPMsg = "Welcome, Mr Alex " + lastname +"!";
         String actualHCPMsg = dashboard2.getWelcomeText();
         Assert.assertTrue(expectedHCPMsg.equals(actualHCPMsg), "The dashboard message doesn't match !" + "\nExpected: " + expectedHCPMsg + "\nActual: " + actualHCPMsg);
         System.out.println("Test passed !");
