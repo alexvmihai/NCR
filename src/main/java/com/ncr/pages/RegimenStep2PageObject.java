@@ -14,8 +14,9 @@ public class RegimenStep2PageObject extends BasePageObject<RegimenStep2PageObjec
     private By deliveryDate = By.cssSelector("#startDateNodeID");
     private By weekendPopUpClose = By.cssSelector("#weekend-popup > a:nth-child(3)");
     private By weekendPopUp = By.cssSelector(".reveal-modal-bg");
-    public boolean weekendPopExists = driver.findElements(By.cssSelector(".reveal-modal-bg")).size() !=0;
+//    public boolean weekendPopExists = driver.findElement(By.id("weekend-popup")).isDisplayed();
     private By createB = By.cssSelector("#regime-save-button");
+    private By orderNr = By.cssSelector("#purchase_order_number");
 
 
 
@@ -35,7 +36,7 @@ public class RegimenStep2PageObject extends BasePageObject<RegimenStep2PageObjec
         Thread.sleep(2000);
     }
 
-    public void selectStartDate(){
+    public void selectStartDate() throws InterruptedException {
         String Date = getCurrentDate();
         System.out.println(Date);
         String futureDate = getFutureDate();
@@ -44,17 +45,39 @@ public class RegimenStep2PageObject extends BasePageObject<RegimenStep2PageObjec
         input.sendKeys(Keys.BACK_SPACE);
         type(futureDate, deliveryDate);
         System.out.println("Current date is : " + Date + "\nDelivery date will be: " + futureDate);
+        Thread.sleep(3000);
     }
 
 
     public void closeWeekendPopup(){
-        waitForVisibilityOf(weekendPopUpClose);
+        waitForVisibilityOf(weekendPopUp);
         clickOn(weekendPopUpClose);
     }
 
-    public RegimenSavedPageObject submitRegimen() throws IOException {
+    public RegimenSavedPageObject submitRegimen() throws IOException, InterruptedException {
         ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,100)");
         clickOn(createB);
+//        boolean isPresent = driver.findElement(By.cssSelector(".reveal-modal-bg")).isDisplayed();
+//        if(isPresent){
+//            regimenStep2.closeWeekendPopup();
+//        } else {
+//            System.out.println("Moving on..");
+//        }
+        try{
+            closeWeekendPopup();
+            System.out.println("Closed pop-up");
+            Thread.sleep(2000);
+            clickOn(createB);
+        } catch (NoSuchElementException ex){
+            System.out.println("Moving on !");
+        } catch (TimeoutException ex2){
+            System.out.println("Moving on...");
+        }
         return new RegimenSavedPageObject(driver);
+    }
+
+    public void clickOrderNr(){
+        ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,300)");
+        clickOn(orderNr);
     }
 }

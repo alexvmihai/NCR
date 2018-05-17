@@ -2,6 +2,7 @@ import com.ncr.pages.PatientConfirmationPageObject;
 import com.ncr.pages.RegimenSavedPageObject;
 import com.ncr.pages.RegimenStep1PageObject;
 import com.ncr.pages.RegimenStep2PageObject;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -25,12 +26,11 @@ public class CreateRegimenTest extends CreatePatientTest{
         System.out.println("RegimenStep2 page successfully loaded !");
         regimenStep2.selectShipping();
         regimenStep2.selectStartDate();
-        if(regimenStep2.weekendPopExists){
-            regimenStep2.closeWeekendPopup();
-        } else {
-            System.out.println("Moving on..");
-        }
+        Thread.sleep(5000);
+        System.out.println("Clicked first !");
+
         RegimenSavedPageObject regimenSavedPage = regimenStep2.submitRegimen();
+        System.out.println("Clicked !!");
         regimenSavedPage.waitForPageToLoad();
         String expectedText = "This regimen is complete and active.\n" +
                 "You will be able to edit it later if required.";
