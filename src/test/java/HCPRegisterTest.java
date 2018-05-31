@@ -42,6 +42,7 @@ public class HCPRegisterTest extends BaseTest {
         beLoginPage.typeUsername(credentials[0]);
         beLoginPage.typePassword(credentials[1]);
         BackEndDashboardPageObject dashboard = beLoginPage.login();
+        Thread.sleep(5000);
         if(dashboard.isPopUpPresent()){
             dashboard.closePopUp();
         } else {
@@ -80,7 +81,9 @@ public class HCPRegisterTest extends BaseTest {
         String expectedHCPMsg = "Welcome, Mr Alex " + lastname +"!";
         String actualHCPMsg = dashboard2.getWelcomeText();
         Assert.assertTrue(expectedHCPMsg.equals(actualHCPMsg), "The dashboard message doesn't match !" + "\nExpected: " + expectedHCPMsg + "\nActual: " + actualHCPMsg);
+        System.out.println("Your new account is: " + email + "\nPass: " + password);
         System.out.println("Test passed !");
+
 
 
     }

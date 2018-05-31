@@ -191,6 +191,11 @@ public class BasePageObject<T> extends BaseTest {
 
     }
 
+    public void writeHCP(String hcpEmail){
+        String title = "HCP accounts";
+        String date = new SimpleDateFormat("dd.MM.yyyy_HH.mm.ss").format(new Date());
+    }
+
 
 
 

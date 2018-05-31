@@ -48,6 +48,7 @@ public class BECustomerInfoPageObject extends BasePageObject<BECustomerInfoPageO
     }
 
     public String getSuccessMessage(){
+        waitForVisibilityOf(successMessage);
         return getText(successMessage);
     }
 
