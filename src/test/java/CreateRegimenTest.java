@@ -36,9 +36,11 @@ public class CreateRegimenTest extends CreatePatientTest{
                 "You will be able to edit it later if required.";
         String actualText = regimenSavedPage.getConfirmationText();
         Assert.assertTrue(expectedText.equals(actualText), "The confirmation message is not correct !" + "\nExpected: " + expectedText + "\nActual: " + actualText);
-        System.out.println("Regimen created successfully, going back to the patient...");
+        System.out.println("Regimen created successfully !");
 
-        //To add the patient page part after the button is fixed
+
+
+
 
 
     }
