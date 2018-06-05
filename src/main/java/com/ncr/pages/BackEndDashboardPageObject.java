@@ -36,7 +36,8 @@ public class BackEndDashboardPageObject extends BasePageObject<BackEndDashboardP
         return new BEManageCustomersPageObject(driver);
     }
 
-    public void closePopUp(){
+    public void closePopUp() throws InterruptedException {
+        Thread.sleep(5000);
         clickOn(popupClose);
         System.out.println("Closing pop-up...");
     }
