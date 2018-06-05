@@ -7,8 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -191,10 +190,51 @@ public class BasePageObject<T> extends BaseTest {
 
     }
 
+    //write the HCP email to a file
     public void writeHCP(String hcpEmail){
-        String title = "HCP accounts";
+        String title = "HCP_accounts";
         String date = new SimpleDateFormat("dd.MM.yyyy_HH.mm.ss").format(new Date());
+        File fileName = new File("D:\\Access Credentials\\" + title + date +".txt");
+        try{
+            FileWriter fw = new FileWriter(fileName, true);
+            fw.write("hcp_email=" + hcpEmail);
+            fw.close();
+
+        } catch (IOException e){
+            e.printStackTrace();
+        }
     }
+
+    //get the last modified file from a folder
+    public static File lastModified(String dir){
+        File directory = new File(dir);
+        if(!directory.exists()){
+            System.out.println(String.format("Directory %s does not exist !", dir));
+        }
+        File[] files = directory.listFiles(new FileFilter() {
+            public boolean accept(File file) {
+                return file.isFile();
+            }
+        });
+        long lastModifiedFile = Long.MIN_VALUE;
+        File choice = null;
+        for (File file :files){
+            if (file.lastModified() > lastModifiedFile){
+                choice = file;
+                lastModifiedFile = file.lastModified();
+            }
+        }
+        return choice;
+    }
+
+    public String readHCP(File file) throws IOException{
+        Properties properties = new Properties();
+        properties.load(new FileInputStream(file));
+        String email = properties.getProperty("hcp_email");
+        return email;
+    }
+
+
 
 
 

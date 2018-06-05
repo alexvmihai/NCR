@@ -82,6 +82,7 @@ public class HCPRegisterTest extends BaseTest {
         String actualHCPMsg = dashboard2.getWelcomeText();
         Assert.assertTrue(expectedHCPMsg.equals(actualHCPMsg), "The dashboard message doesn't match !" + "\nExpected: " + expectedHCPMsg + "\nActual: " + actualHCPMsg);
         System.out.println("Your new account is: " + email + "\nPass: " + password);
+        dashboard2.writeHCP(email);
         System.out.println("Test passed !");
 
 
