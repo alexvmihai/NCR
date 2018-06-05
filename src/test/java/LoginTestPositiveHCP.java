@@ -5,6 +5,7 @@ import com.ncr.pages.LoginPageObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.io.IOException;
 
 /**
@@ -19,12 +20,15 @@ public class LoginTestPositiveHCP extends BaseTest{
         homepage.waitForPageToLoad();
         LoginPageObject loginpage = homepage.openLoginPage();
         loginpage.waitForPageToLoad();
-        String[] credentials = loginpage.getCredentials();
-        loginpage.typeEmail(credentials[0]);
-        loginpage.typePass(credentials[1]);
+        File latestFile = loginpage.lastModified("D:\\Access Credentials\\HCP_email\\");
+        String username = loginpage.readHCP(latestFile);
+        loginpage.typeEmail(username);
+        loginpage.typePass("Smoketest1234/");
         DashboardHCPPageObject dashboard = loginpage.submit();
         dashboard.waitForPageToLoad();
-        String expectedMsg = dashboard.welcomeMsg();
+        File lastModified = dashboard.lastModified("D:\\Access Credentials\\HCP_lastname\\");
+        String hcpLastname = dashboard.readHCPlastname(lastModified);
+        String expectedMsg = "Welcome, Mr Alex " + hcpLastname + "!";
         String actualMsg = dashboard.getWelcomeText();
         Assert.assertTrue(expectedMsg.equals(actualMsg), "Welcome message not correct !" + "\nExpected: " + expectedMsg + "\nActual: " + actualMsg);
         System.out.println("Test passed !");

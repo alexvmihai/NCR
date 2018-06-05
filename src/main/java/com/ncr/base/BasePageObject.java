@@ -194,7 +194,7 @@ public class BasePageObject<T> extends BaseTest {
     public void writeHCP(String hcpEmail){
         String title = "HCP_accounts";
         String date = new SimpleDateFormat("dd.MM.yyyy_HH.mm.ss").format(new Date());
-        File fileName = new File("D:\\Access Credentials\\" + title + date +".txt");
+        File fileName = new File("D:\\Access Credentials\\HCP_email\\" + title + date +".txt");
         try{
             FileWriter fw = new FileWriter(fileName, true);
             fw.write("hcp_email=" + hcpEmail);
@@ -205,8 +205,22 @@ public class BasePageObject<T> extends BaseTest {
         }
     }
 
+    //write the HCP lastname to a file
+    public void writeHCPname(String lastname){
+        String title = "HCP_lastname";
+        String date = new SimpleDateFormat("dd.MM.yyyy_HH.mm.ss").format(new Date());
+        File fileName = new File("D:\\Access Credentials\\HCP_lastname\\" + title + date + ".txt");
+        try{
+            FileWriter fw = new FileWriter(fileName, true);
+            fw.write("lastname=" + lastname);
+            fw.close();
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+
     //get the last modified file from a folder
-    public static File lastModified(String dir){
+    public File lastModified(String dir){
         File directory = new File(dir);
         if(!directory.exists()){
             System.out.println(String.format("Directory %s does not exist !", dir));
@@ -232,6 +246,13 @@ public class BasePageObject<T> extends BaseTest {
         properties.load(new FileInputStream(file));
         String email = properties.getProperty("hcp_email");
         return email;
+    }
+
+    public String readHCPlastname(File file) throws IOException{
+        Properties properties = new Properties();
+        properties.load(new FileInputStream(file));
+        String lastname = properties.getProperty("lastname");
+        return lastname;
     }
 
 
