@@ -2,6 +2,8 @@ package com.ncr.base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -10,12 +12,14 @@ import org.testng.annotations.BeforeClass;
  */
 public class BaseTest  {
     protected WebDriver driver;
+    ProfilesIni profile = new ProfilesIni();
+    FirefoxProfile qa = profile.getProfile("JavaSelenium");
 
     @BeforeClass
     public void methodSetUp(){
         System.out.println("Test set up !");
         System.setProperty("webdriver.gecko.driver","src/main/resources/geckodriver.exe");
-        driver = new FirefoxDriver();
+        driver = new FirefoxDriver(qa);
     }
 
     @BeforeClass
@@ -24,9 +28,9 @@ public class BaseTest  {
         return env;
     }
 
-    @AfterClass
-    public void methodTearDown(){
-        System.out.println("Test clean up !");
-        driver.quit();
-    }
+//    @AfterClass
+//    public void methodTearDown(){
+//        System.out.println("Test clean up !");
+//        driver.quit();
+//    }
 }

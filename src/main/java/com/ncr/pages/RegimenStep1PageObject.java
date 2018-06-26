@@ -11,6 +11,7 @@ public class RegimenStep1PageObject extends BasePageObject<RegimenStep1PageObjec
     private By header = By.cssSelector(".hcp-title");
     private By syringe = By.cssSelector("li.item:nth-child(2)");
     private By addSyringeB = By.cssSelector("li.item:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)");
+    private By addSustagenKids = By.cssSelector("li.item:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)");
     private By continueB = By.cssSelector("button.button");
     private By popUpHeader = By.cssSelector(".modal-header");
     private By popUpAddB = By.cssSelector(".js-add-product-to-regimen");
@@ -27,7 +28,7 @@ public class RegimenStep1PageObject extends BasePageObject<RegimenStep1PageObjec
     }
 
     public void addProducts() throws InterruptedException {
-        clickOn(addSyringeB);
+        clickOn(addSustagenKids);
         waitForVisibilityOf(popUpHeader);
         waitForVisibilityOf(popUpAddB);
         clickOn(popUpAddB);
