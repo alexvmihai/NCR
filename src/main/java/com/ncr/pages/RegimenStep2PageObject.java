@@ -2,6 +2,7 @@ package com.ncr.pages;
 
 import com.ncr.base.BasePageObject;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.Select;
 
 import java.io.IOException;
 import java.util.NoSuchElementException;
@@ -17,6 +18,8 @@ public class RegimenStep2PageObject extends BasePageObject<RegimenStep2PageObjec
 //    public boolean weekendPopExists = driver.findElement(By.id("weekend-popup")).isDisplayed();
     private By createB = By.cssSelector("#regime-save-button");
     private By orderNr = By.cssSelector("#purchase_order_number");
+    private By frequency = By.cssSelector(".regimenDetails > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > div:nth-child(1) > select:nth-child(1)");
+    private By expiry = By.cssSelector(".cr-expir-date");
 
 
 
@@ -79,5 +82,15 @@ public class RegimenStep2PageObject extends BasePageObject<RegimenStep2PageObjec
     public void clickOrderNr(){
         ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,300)");
         clickOn(orderNr);
+    }
+
+    public void setFrequency(){
+        Select select = new Select(driver.findElement(By.cssSelector(".regimenDetails > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > div:nth-child(1) > select:nth-child(1)")));
+        select.selectByVisibleText("Every 4 Weeks");
+    }
+
+    public String getExpiry(){
+        return getText(expiry);
+
     }
 }

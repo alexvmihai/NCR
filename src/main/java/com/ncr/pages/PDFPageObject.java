@@ -30,8 +30,8 @@ public class PDFPageObject extends BasePageObject<PDFPageObject> {
 
 //    File lastFile = lastModified("D:\\PDF\\");
 
-    public void checkPDFContent(File file) throws IOException {
-
+    public String checkPDFContent(File file) throws IOException {
+        String extractedText ="";
         try{
             PDDocument doc = PDDocument.load(file);
             int totalPages = doc.getNumberOfPages();
@@ -39,12 +39,13 @@ public class PDFPageObject extends BasePageObject<PDFPageObject> {
             PDFTextStripper stripper = new PDFTextStripper();
             stripper.setStartPage(1);
             stripper.setEndPage(totalPages);
-            String extractedText = stripper.getText(doc);
-            System.out.println(extractedText);
+            extractedText = stripper.getText(doc);
         } catch (IOException e) {
             System.out.println("Nu merge !");
             e.printStackTrace();
         }
+        System.out.println(extractedText);
+        return extractedText;
     }
 
     public void savePDF(String url) throws IOException {
