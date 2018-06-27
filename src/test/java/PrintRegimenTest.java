@@ -53,7 +53,10 @@ public class PrintRegimenTest extends CreatePatientTest {
         System.out.println(finalDate2 + " asta e start final");
 
         //Get the frequency from the regimen page
-
+        String freq1 = regimenStep2.getFrequency();
+        String freq2 = freq1.substring(0,6);
+        String finalFreq = freq2.toLowerCase();
+        System.out.println("Frequency is : " + freq2);
 
 
 
@@ -95,6 +98,8 @@ public class PrintRegimenTest extends CreatePatientTest {
         System.out.println("Expiry date appears on the pdf !");
         Assert.assertTrue(pdfCOntent.contains("Set Start/Delivery Date: " + finalDate2));
         System.out.println("Start date is correct on the pdf !");
+        Assert.assertTrue(pdfCOntent.contains("Length: " + finalFreq +"(s)"));
+        System.out.println("Frequency is correct on the pdf !");
 
     }
 }

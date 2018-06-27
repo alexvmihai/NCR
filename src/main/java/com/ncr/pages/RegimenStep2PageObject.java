@@ -18,9 +18,10 @@ public class RegimenStep2PageObject extends BasePageObject<RegimenStep2PageObjec
 //    public boolean weekendPopExists = driver.findElement(By.id("weekend-popup")).isDisplayed();
     private By createB = By.cssSelector("#regime-save-button");
     private By orderNr = By.cssSelector("#purchase_order_number");
-    private By frequency = By.cssSelector(".regimenDetails > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > div:nth-child(1) > select:nth-child(1)");
+    private By frequency = By.cssSelector("#cr-length-select");
     private By expiry = By.cssSelector(".cr-expir-date");
     private By startDate = By.cssSelector("#startDateNodeID");
+
 
 
 
@@ -97,5 +98,9 @@ public class RegimenStep2PageObject extends BasePageObject<RegimenStep2PageObjec
 
     public String getStartDate(){
         return getText(startDate);
+    }
+
+    public String getFrequency(){
+        return getText(frequency);
     }
 }
