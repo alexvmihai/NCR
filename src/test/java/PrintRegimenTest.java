@@ -37,20 +37,16 @@ public class PrintRegimenTest extends CreatePatientTest {
         String expiryDate = regimenStep2.getExpiry();
         String expiry2 = expiryDate.substring(14);
         Date date1 = new SimpleDateFormat("dd/MM/yyyy").parse(expiry2);
-        System.out.println(date1 + " asta e data");
         Format formatter2 = new SimpleDateFormat("yyyy/MM/dd");
         String finalDate = formatter2.format(date1);
-        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&");
-        System.out.println(finalDate + " asta e final");
+
 
         //Get the start date from the regimen page
-        System.out.println(startDate + "this is the start date");
+
         Date date2 = new SimpleDateFormat("dd/MM/yyyy").parse(startDate);
         System.out.println(date2 + " asta e start date");
         Format formatter3 = new SimpleDateFormat("yyyy/MM/dd");
         String finalDate2 = formatter3.format(date2);
-        System.out.println("$$$$$$$$$$$$$$$$$$$$$$$");
-        System.out.println(finalDate2 + " asta e start final");
 
         //Get the frequency from the regimen page
         String freq1 = regimenStep2.getFrequency();
@@ -68,6 +64,8 @@ public class PrintRegimenTest extends CreatePatientTest {
         String actualText = regimenSavedPage.getConfirmationText();
         Assert.assertTrue(expectedText.equals(actualText), "The confirmation message is not correct !" + "\nExpected: " + expectedText + "\nActual: " + actualText);
         System.out.println("Regimen created successfully !");
+
+
 
         //Print
         PDFPageObject pdfPage = regimenSavedPage.print();

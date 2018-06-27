@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6d0ed80b-7ad8-4d53-9cd0-f5e67dd6e327" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../NHSNCR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/RegimenStep2PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/RegimenStep2PageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NHSNCR/src/test/java/PrintRegimenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/src/test/java/PrintRegimenTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,8 +58,8 @@
       <file leaf-file-name="PrintRegimenTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/PrintRegimenTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="101" column="63" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
+            <state relative-caret-position="265">
+              <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -556,12 +555,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrintRegimenTest - 2018.06.27 at 15h 16m 33s.xml">
-      <configuration name="PrintRegimenTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PrintRegimenTest - 2018.06.27 at 15h 18m 38s.xml">
-      <configuration name="PrintRegimenTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="PrintRegimenTest - 2018.06.27 at 15h 22m 50s.xml">
       <configuration name="PrintRegimenTest" configurationId="TestNG" />
     </history-entry>
@@ -586,6 +579,12 @@
     <history-entry file="PrintRegimenTest - 2018.06.27 at 16h 19m 31s.xml">
       <configuration name="PrintRegimenTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PrintRegimenTest - 2018.06.27 at 16h 32m 46s.xml">
+      <configuration name="PrintRegimenTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PrintRegimenTest - 2018.06.27 at 16h 38m 47s.xml">
+      <configuration name="PrintRegimenTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -593,18 +592,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.41098082" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4099147" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.23987207" side_tool="true" visible="true" weight="0.375817" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.24093817" side_tool="true" visible="true" weight="0.375817" />
       <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.08315565" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4978678" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7601279" visible="true" weight="0.375817" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7590618" visible="true" weight="0.375817" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" weight="0.32897604" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -957,13 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/CreatePatientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/base/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1015,6 +1007,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/CreatePatientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/RegimenStep2PageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1032,8 +1031,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/PrintRegimenTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="101" column="63" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
+        <state relative-caret-position="265">
+          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
