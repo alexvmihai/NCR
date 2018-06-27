@@ -21,6 +21,7 @@ public class RegimenStep2PageObject extends BasePageObject<RegimenStep2PageObjec
     private By frequency = By.cssSelector("#cr-length-select");
     private By expiry = By.cssSelector(".cr-expir-date");
     private By startDate = By.cssSelector("#startDateNodeID");
+    private By price = By.cssSelector(".totals > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > span:nth-child(1)");
 
 
 
@@ -102,5 +103,9 @@ public class RegimenStep2PageObject extends BasePageObject<RegimenStep2PageObjec
 
     public String getFrequency(){
         return getText(frequency);
+    }
+
+    public String getPrice(){
+        return getText(price);
     }
 }

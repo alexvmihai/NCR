@@ -44,7 +44,6 @@ public class PrintRegimenTest extends CreatePatientTest {
         //Get the start date from the regimen page
 
         Date date2 = new SimpleDateFormat("dd/MM/yyyy").parse(startDate);
-        System.out.println(date2 + " asta e start date");
         Format formatter3 = new SimpleDateFormat("yyyy/MM/dd");
         String finalDate2 = formatter3.format(date2);
 
@@ -53,6 +52,11 @@ public class PrintRegimenTest extends CreatePatientTest {
         String freq2 = freq1.substring(0,6);
         String finalFreq = freq2.toLowerCase();
         System.out.println("Frequency is : " + freq2);
+
+        //Get the price
+        String price = regimenStep2.getPrice();
+        System.out.println("The price is: " + price);
+
 
 
 
@@ -94,10 +98,12 @@ public class PrintRegimenTest extends CreatePatientTest {
         String pdfCOntent = pdfPage.checkPDFContent(lastFile);
         Assert.assertTrue(pdfCOntent.contains("Expiry Date: " + finalDate), "Expiry date not correct on pdf !");
         System.out.println("Expiry date appears on the pdf !");
-        Assert.assertTrue(pdfCOntent.contains("Set Start/Delivery Date: " + finalDate2));
+        Assert.assertTrue(pdfCOntent.contains("Set Start/Delivery Date: " + finalDate2), "Delivery Date is not correct on pdf !");
         System.out.println("Start date is correct on the pdf !");
-        Assert.assertTrue(pdfCOntent.contains("Length: " + finalFreq +"(s)"));
+        Assert.assertTrue(pdfCOntent.contains("Length: " + finalFreq +"(s)"), "Length of regimen is not correct on pdf !");
         System.out.println("Frequency is correct on the pdf !");
+        Assert.assertTrue(pdfCOntent.contains("FIRST ORDER TOTAL: AUD " + price), "Price is not correct on pdf !");
+        System.out.println("The price is correct on the pdf !");
 
     }
 }

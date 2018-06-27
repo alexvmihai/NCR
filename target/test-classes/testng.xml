@@ -34,5 +34,10 @@
             <class name="LoginTestNegative"></class>
         </classes>
     </test>
+    <test name="PrintRegimenTest">
+        <classes>
+            <class name="PrintRegimenTest"></class>
+        </classes>
+    </test>
 
 </suite>
