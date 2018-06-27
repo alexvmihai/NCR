@@ -18,6 +18,18 @@ public class PrintRegimenTest extends CreatePatientTest {
         patientConfirmPage.waitForPageToLoad();
         RegimenStep1PageObject regimenStep1 = patientConfirmPage.createRegimen();
         regimenStep1.waitForPageToLoad();
+
+        //Get patient credentials
+        String info = regimenStep1.getPatientInfo();
+        System.out.println("Patient info are : " + info);
+        String[] info2 = info.split("\n");
+        System.out.println(info2);
+        String patientName = info2[0];
+        String patientName2 = patientName.substring(5);
+        String[] patientName3 = patientName2.split(" ");
+        String firstnamePatient = patientName3[0];
+        String lastnamePatient = patientName3[1];
+
         System.out.println("Regimen Step 1 page loaded successfully !");
         regimenStep1.addProducts();
         String expectedCartStatus = "1 PRODUCTS SELECTED";
@@ -104,6 +116,9 @@ public class PrintRegimenTest extends CreatePatientTest {
         System.out.println("Frequency is correct on the pdf !");
         Assert.assertTrue(pdfCOntent.contains("FIRST ORDER TOTAL: AUD " + price), "Price is not correct on pdf !");
         System.out.println("The price is correct on the pdf !");
+        Assert.assertTrue(pdfCOntent.contains(firstnamePatient), "Patient firstname is not correct !");
+        Assert.assertTrue(pdfCOntent.contains(lastnamePatient), "Patient lastname is not correct !");
+        System.out.println("The patient name is also correct on the pdf !");
 
     }
 }

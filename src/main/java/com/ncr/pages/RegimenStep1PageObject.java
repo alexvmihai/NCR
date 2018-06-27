@@ -16,6 +16,7 @@ public class RegimenStep1PageObject extends BasePageObject<RegimenStep1PageObjec
     private By popUpHeader = By.cssSelector(".modal-header");
     private By popUpAddB = By.cssSelector(".js-add-product-to-regimen");
     private By cartStatus = By.cssSelector(".block-subtitle");
+    private By patientInfo = By.cssSelector(".patient-hint");
 
     protected RegimenStep1PageObject(WebDriver driver) throws IOException {
         super(driver);
@@ -44,5 +45,9 @@ public class RegimenStep1PageObject extends BasePageObject<RegimenStep1PageObjec
 
     public String getCartStatus(){
         return getText(cartStatus);
+    }
+
+    public String getPatientInfo(){
+        return getText(patientInfo);
     }
 }
