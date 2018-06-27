@@ -20,6 +20,7 @@ public class RegimenStep2PageObject extends BasePageObject<RegimenStep2PageObjec
     private By orderNr = By.cssSelector("#purchase_order_number");
     private By frequency = By.cssSelector(".regimenDetails > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > div:nth-child(1) > select:nth-child(1)");
     private By expiry = By.cssSelector(".cr-expir-date");
+    private By startDate = By.cssSelector("#startDateNodeID");
 
 
 
@@ -39,7 +40,7 @@ public class RegimenStep2PageObject extends BasePageObject<RegimenStep2PageObjec
         Thread.sleep(2000);
     }
 
-    public void selectStartDate() throws InterruptedException {
+    public String selectStartDate() throws InterruptedException {
         String Date = getCurrentDate();
         System.out.println(Date);
         String futureDate = getFutureDate();
@@ -49,6 +50,7 @@ public class RegimenStep2PageObject extends BasePageObject<RegimenStep2PageObjec
         type(futureDate, deliveryDate);
         System.out.println("Current date is : " + Date + "\nDelivery date will be: " + futureDate);
         Thread.sleep(3000);
+        return futureDate;
     }
 
 
@@ -91,6 +93,9 @@ public class RegimenStep2PageObject extends BasePageObject<RegimenStep2PageObjec
 
     public String getExpiry(){
         return getText(expiry);
+    }
 
+    public String getStartDate(){
+        return getText(startDate);
     }
 }

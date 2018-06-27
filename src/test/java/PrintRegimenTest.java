@@ -2,21 +2,13 @@ import com.ncr.pages.*;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.io.File;
 import java.io.IOException;
-import java.net.Authenticator;
-import java.net.PasswordAuthentication;
-import java.net.URL;
-import java.net.URLConnection;
 import java.text.Format;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
-import java.util.Locale;
-import java.util.TimeZone;
+
 
 
 public class PrintRegimenTest extends CreatePatientTest {
@@ -38,8 +30,10 @@ public class PrintRegimenTest extends CreatePatientTest {
         regimenStep2.setFrequency();
         ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,500)");
         regimenStep2.selectShipping();
-        regimenStep2.selectStartDate();
+        String startDate = regimenStep2.selectStartDate();
         Thread.sleep(5000);
+
+        //Get the expiry date from the regimen page
         String expiryDate = regimenStep2.getExpiry();
         String expiry2 = expiryDate.substring(14);
         Date date1 = new SimpleDateFormat("dd/MM/yyyy").parse(expiry2);
@@ -48,6 +42,20 @@ public class PrintRegimenTest extends CreatePatientTest {
         String finalDate = formatter2.format(date1);
         System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&");
         System.out.println(finalDate + " asta e final");
+
+        //Get the start date from the regimen page
+        System.out.println(startDate + "this is the start date");
+        Date date2 = new SimpleDateFormat("dd/MM/yyyy").parse(startDate);
+        System.out.println(date2 + " asta e start date");
+        Format formatter3 = new SimpleDateFormat("yyyy/MM/dd");
+        String finalDate2 = formatter3.format(date2);
+        System.out.println("$$$$$$$$$$$$$$$$$$$$$$$");
+        System.out.println(finalDate2 + " asta e start final");
+
+        //Get the frequency from the regimen page
+
+
+
 
         RegimenSavedPageObject regimenSavedPage = regimenStep2.submitRegimen();
         System.out.println("Clicked !!");
@@ -83,7 +91,10 @@ public class PrintRegimenTest extends CreatePatientTest {
         File lastFile = pdfPage.lastModified("D:\\PDF");
         Thread.sleep(5000);
         String pdfCOntent = pdfPage.checkPDFContent(lastFile);
-        Assert.assertTrue(pdfCOntent.contains(finalDate), "Expiry date not correct on pdf !");
+        Assert.assertTrue(pdfCOntent.contains("Expiry Date: " + finalDate), "Expiry date not correct on pdf !");
+        System.out.println("Expiry date appears on the pdf !");
+        Assert.assertTrue(pdfCOntent.contains("Set Start/Delivery Date: " + finalDate2));
+        System.out.println("Start date is correct on the pdf !");
 
     }
 }
