@@ -19,8 +19,15 @@ public class CreatePatientTest extends LoginTestPositiveHCP {
         String email = "amihai_test" + Random + "@mailinator.com";
         String firstname = "Firstname" + Random;
         String lastname = "Lastname" + Random;
+        String postcode = "";
+        if(setEnv() == "PROD") {
+            postcode = "0150";
+        }else{
+            postcode = "3500";
+        }
+        System.out.println("%%%%%%%%%%%%%%%%%%%% Postcode is: " + postcode);
         patientRegisterPage.fillRegisterForm(firstname, lastname, "10101910", email, "2039192931", "Red Hill 24", "Sidney",
-                "New South Wales", "3500", "Australia");
+                "New South Wales", postcode, "Australia");
         PatientConfirmationPageObject patientConfirmPage = patientRegisterPage.submitForm();
         patientConfirmPage.waitForPageToLoad();
 

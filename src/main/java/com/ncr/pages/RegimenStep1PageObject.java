@@ -17,6 +17,8 @@ public class RegimenStep1PageObject extends BasePageObject<RegimenStep1PageObjec
     private By popUpAddB = By.cssSelector(".js-add-product-to-regimen");
     private By cartStatus = By.cssSelector(".block-subtitle");
     private By patientInfo = By.cssSelector(".patient-hint");
+    private By sustangeOptimum = By.cssSelector("img[alt=\"SUSTAGEN® OPTIMUM 800g\"");
+    private By incrementBox = By.cssSelector(".validate-increment-popup");
 
     protected RegimenStep1PageObject(WebDriver driver) throws IOException {
         super(driver);
@@ -29,9 +31,10 @@ public class RegimenStep1PageObject extends BasePageObject<RegimenStep1PageObjec
     }
 
     public void addProducts() throws InterruptedException {
-        clickOn(addSustagenKids);
+        clickOn(sustangeOptimum);
         waitForVisibilityOf(popUpHeader);
         waitForVisibilityOf(popUpAddB);
+        type("2", incrementBox);
         clickOn(popUpAddB);
         Thread.sleep(4000);
     }

@@ -85,7 +85,7 @@ public class PrintRegimenTest extends CreatePatientTest {
 
         //Print
         PDFPageObject pdfPage = regimenSavedPage.print();
-        Thread.sleep(9000);
+        Thread.sleep(30000);
         //Switch to new tab
 //        for(String winHandle : driver.getWindowHandles()){
 //            driver.switchTo().window(winHandle);
