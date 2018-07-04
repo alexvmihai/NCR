@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d0ed80b-7ad8-4d53-9cd0-f5e67dd6e327" name="Default" comment="" />
+    <list default="true" id="6d0ed80b-7ad8-4d53-9cd0-f5e67dd6e327" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/base/BasePageObject$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/base/BasePageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/base/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/base/RetryAnalyzer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/base/TestListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/BECustomerInfoPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/BEManageCustomersPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/BackEndDashboardPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/BackEndLoginPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/DashboardHCPPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/DashboardIAPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/HomepageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/LoginPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/PDFPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/PatientConfirmationPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/PatientRegisterPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/RegimenSavedPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/RegimenStep1PageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/RegimenStep2PageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/RegisterPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/RegistrationSuccessPageObject.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <manually-removed-from-ignored>
       <directory path="$PROJECT_DIR$/target/" />
@@ -14,7 +38,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/..///////NHSNCR_reports/" userTempatePath="" />
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/..///////////NHSNCR_reports/" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
@@ -35,10 +59,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NHSNCR.iml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NHSNCR.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/NHSNCR.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357" />
+            <state relative-caret-position="340">
+              <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../NHSNCR/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2550">
+              <caret line="150" column="60" selection-start-line="150" selection-start-column="60" selection-end-line="150" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../NHSNCR/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -54,7 +98,7 @@
       <file leaf-file-name="DashboardIAPageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/DashboardIAPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="136">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,7 +119,7 @@
       <file leaf-file-name="PrintRegimenTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/PrintRegimenTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
+            <state relative-caret-position="1479">
               <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -89,28 +133,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegimenStep2PageObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/RegimenStep2PageObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="144" />
-              <folding>
-                <element signature="e#4200#4201#0" expanded="true" />
-                <element signature="e#4237#4238#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreatePatientTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/CreatePatientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -131,11 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/PatientConfirmationPageObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/RegimenStep1PageObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BasePageObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/RegimenStep2PageObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/RegimenSavedPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreateRegimenTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreatePatientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/PatientRegisterPageObject.java" />
@@ -182,6 +199,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/DashboardIAPageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/LoginPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/IARegisterTest.java" />
+        <option value="$PROJECT_DIR$/NHSNCR.iml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/../NHSNCR/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -217,8 +239,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -226,6 +248,11 @@
             <path>
               <item name="NHSNCR" type="b2602c69:ProjectViewProjectNode" />
               <item name="NHSNCR" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NHSNCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NHSNCR" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NHSNCR" type="b2602c69:ProjectViewProjectNode" />
@@ -317,7 +344,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Mercurial" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -608,21 +635,21 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5053305" side_tool="true" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.50586355" side_tool="true" visible="true" weight="0.32897604" />
       <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.08315565" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.4978678" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.74946696" weight="0.375817" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4946695" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4978678" weight="0.2875817" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49413645" visible="true" weight="0.32897604" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26812366" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27985075" />
       <window_info anchor="bottom" id="Statistic" order="7" sideWeight="0.4989339" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77878463" weight="0.39978212" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="right" id="Properties" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -686,20 +713,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/OpenHomepageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/LoginTestPositiveHCP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/LoginTestNegative.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -987,7 +1000,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/PrintRegimenTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
+        <state relative-caret-position="1479">
           <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1018,7 +1031,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/DashboardIAPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1042,7 +1055,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/NHSNCR.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357" />
+        <state relative-caret-position="340">
+          <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="150" column="60" selection-start-line="150" selection-start-column="60" selection-end-line="150" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
       </provider>
     </entry>
   </component>
