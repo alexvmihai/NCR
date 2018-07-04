@@ -47,6 +47,11 @@ public class LoginPageObject extends BasePageObject<LoginPageObject> {
         return new DashboardHCPPageObject(driver);
     }
 
+    public DashboardIAPageObject submitIA() throws IOException{
+        clickOn(loginB);
+        return new DashboardIAPageObject(driver);
+    }
+
     public String getErrorText(){
         waitForVisibilityOf(errorMsg);
         return getText(errorMsg);
