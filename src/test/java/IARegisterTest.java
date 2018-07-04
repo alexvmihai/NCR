@@ -1,6 +1,7 @@
 import com.ncr.base.BaseTest;
 import com.ncr.pages.DashboardIAPageObject;
 import com.ncr.pages.HomepageObject;
+import com.ncr.pages.IAProfilePageObject;
 import com.ncr.pages.LoginPageObject;
 import org.testng.annotations.Test;
 
@@ -18,6 +19,8 @@ public class IARegisterTest extends BaseTest {
         loginPage.typeEmail(credentials[0]);
         loginPage.typePass(credentials[1]);
         DashboardIAPageObject dashboard = loginPage.submitIA();
-
+        dashboard.waitForPageToLoad();
+        IAProfilePageObject profilePage = dashboard.clickProfile();
+        profilePage.waitForPageToLoad();
     }
 }
