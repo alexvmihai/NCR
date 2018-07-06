@@ -18,6 +18,8 @@ public class LoginPageObject extends BasePageObject<LoginPageObject> {
     private By header = By.cssSelector(".page-title > h1:nth-child(1)");
     private By leftBlock = By.cssSelector(".why-register");
     private By errorMsg = By.cssSelector(".error-msg > ul:nth-child(1) > li:nth-child(1) > span:nth-child(1)");
+    private By resetPassB = By.cssSelector("a.right");
+    private By resetPassMsg = By.cssSelector(".success-msg > ul:nth-child(1) > li:nth-child(1) > span:nth-child(1)");
 
     protected LoginPageObject(WebDriver driver) throws IOException {
         super(driver);
@@ -55,6 +57,15 @@ public class LoginPageObject extends BasePageObject<LoginPageObject> {
     public String getErrorText(){
         waitForVisibilityOf(errorMsg);
         return getText(errorMsg);
+    }
+
+    public ForgotPasswordPageObject clickResetPass() throws IOException {
+        clickOn(resetPassB);
+        return new ForgotPasswordPageObject(driver);
+    }
+
+    public String getPassResetMsg(){
+        return getText(resetPassMsg);
     }
 
 
