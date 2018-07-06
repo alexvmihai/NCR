@@ -27,10 +27,10 @@ public class BaseTest  {
         String env = "PPRD";
         return env;
     }
-//
-//    @AfterClass
-//    public void methodTearDown(){
-//        System.out.println("Test clean up !");
-//        driver.quit();
-//    }
+
+    @AfterClass
+    public void methodTearDown(){
+        System.out.println("Test clean up !");
+        driver.quit();
+    }
 }
