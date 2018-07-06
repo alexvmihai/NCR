@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6d0ed80b-7ad8-4d53-9cd0-f5e67dd6e327" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../NHSNCR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/IAProfilePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/IAProfilePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/base/BasePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/base/BasePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/ForgotPasswordPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/ForgotPasswordPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/LoginPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/LoginPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NHSNCR/src/test/java/IARegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/src/test/java/IARegisterTest.java" afterDir="false" />
     </list>
@@ -19,7 +20,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/../////////////NHSNCR_reports/" userTempatePath="" />
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/..//////////////NHSNCR_reports/" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
@@ -31,11 +32,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IARegisterTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IARegisterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/IARegisterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+            <state relative-caret-position="358">
+              <caret line="74" column="36" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardIAPageObject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/DashboardIAPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,12 +56,31 @@
       <file leaf-file-name="LoginPageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/LoginPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+            <state relative-caret-position="-319">
+              <caret line="22" column="118" selection-start-line="22" selection-start-column="118" selection-end-line="22" selection-end-column="118" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GmailPageObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/GmailPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
               <folding>
-                <element signature="e#2211#2212#0" expanded="true" />
-                <element signature="e#2229#2230#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2674#2675#0" expanded="true" />
+                <element signature="e#2717#2718#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HCPRegisterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/HCPRegisterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="83" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -56,14 +88,12 @@
       <file leaf-file-name="ForgotPasswordPageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/ForgotPasswordPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="66">
+              <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,12 +102,10 @@
       <file leaf-file-name="IAProfilePageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/IAProfilePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+            <state relative-caret-position="387">
+              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2500#2501#0" expanded="true" />
-                <element signature="e#2531#2532#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,12 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/CreateRegimenTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CreatePatientTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/HCPRegisterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/HCPRegisterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BasePageObject.java" />
@@ -146,10 +168,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/DashboardIAPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/IARegisterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/IAProfilePageObject.java" />
-        <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/IAProfilePageObject.java" />
-        <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/ForgotPasswordPageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/IAProfilePageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/ForgotPasswordPageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/LoginPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IARegisterTest.java" />
+        <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/base/BasePageObject.java" />
         <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/LoginPageObject.java" />
+        <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/ForgotPasswordPageObject.java" />
+        <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/GmailPageObject.java" />
         <option value="$PROJECT_DIR$/../NHSNCR/src/test/java/IARegisterTest.java" />
+        <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/DashboardIAPageObject.java" />
       </list>
     </option>
   </component>
@@ -172,10 +200,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1644" />
-    <option name="y" value="8" />
-    <option name="width" value="1920" />
-    <option name="height" value="1040" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -185,7 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -282,7 +310,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -532,34 +560,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrintRegimenTest - 2018.06.28 at 17h 34m 08s.xml">
-      <configuration name="PrintRegimenTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="IARegisterTest - 2018.07.04 at 14h 17m 08s.xml">
+    <history-entry file="IARegisterTest - 2018.07.06 at 12h 57m 35s.xml">
       <configuration name="IARegisterTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IARegisterTest - 2018.07.04 at 17h 33m 08s.xml">
+    <history-entry file="IARegisterTest - 2018.07.06 at 13h 53m 26s.xml">
       <configuration name="IARegisterTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IARegisterTest - 2018.07.04 at 17h 50m 32s.xml">
+    <history-entry file="IARegisterTest - 2018.07.06 at 13h 57m 24s.xml">
       <configuration name="IARegisterTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IARegisterTest - 2018.07.04 at 18h 12m 05s.xml">
+    <history-entry file="IARegisterTest - 2018.07.06 at 14h 00m 16s.xml">
       <configuration name="IARegisterTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IARegisterTest - 2018.07.06 at 10h 44m 56s.xml">
+    <history-entry file="IARegisterTest - 2018.07.06 at 14h 13m 00s.xml">
       <configuration name="IARegisterTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IARegisterTest - 2018.07.06 at 10h 54m 27s.xml">
+    <history-entry file="IARegisterTest - 2018.07.06 at 14h 18m 44s.xml">
       <configuration name="IARegisterTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IARegisterTest - 2018.07.06 at 10h 59m 26s.xml">
+    <history-entry file="IARegisterTest - 2018.07.06 at 14h 21m 29s.xml">
       <configuration name="IARegisterTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IARegisterTest - 2018.07.06 at 11h 01m 07s.xml">
+    <history-entry file="IARegisterTest - 2018.07.06 at 14h 31m 26s.xml">
       <configuration name="IARegisterTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IARegisterTest - 2018.07.06 at 11h 07m 21s.xml">
+    <history-entry file="IARegisterTest - 2018.07.06 at 14h 33m 35s.xml">
+      <configuration name="IARegisterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="IARegisterTest - 2018.07.06 at 14h 37m 33s.xml">
       <configuration name="IARegisterTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -582,14 +610,14 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.25159913" side_tool="true" visible="true" weight="0.375817" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2521322" side_tool="true" visible="true" weight="0.375817" />
       <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.08315565" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4978678" weight="0.2875817" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.74840087" visible="true" weight="0.375817" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49200428" weight="0.3224401" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7478678" visible="true" weight="0.375817" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49093816" weight="0.3224401" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2835821" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2867804" />
       <window_info anchor="bottom" id="Statistic" order="7" sideWeight="0.4989339" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -597,11 +625,11 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77878463" weight="0.39978212" />
-      <window_info anchor="right" id="Properties" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Nl-Palette" order="5" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info id="Nl-Palette" order="5" />
+      <window_info anchor="right" id="Properties" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32897604" />
@@ -659,13 +687,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -929,13 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/base/BasePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="122" column="34" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/NHSNCR.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -971,64 +985,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/DashboardIAPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/HCPRegisterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/IAProfilePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        <state relative-caret-position="387">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2500#2501#0" expanded="true" />
-            <element signature="e#2531#2532#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/ForgotPasswordPageObject.java">
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/base/BasePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="440">
+          <caret line="264" column="5" selection-start-line="264" selection-start-column="5" selection-end-line="264" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#7793#7794#0" expanded="true" />
+            <element signature="e#7845#7846#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/LoginPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+        <state relative-caret-position="-319">
+          <caret line="22" column="118" selection-start-line="22" selection-start-column="118" selection-end-line="22" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/ForgotPasswordPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
           <folding>
-            <element signature="e#2211#2212#0" expanded="true" />
-            <element signature="e#2229#2230#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/GmailPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2674#2675#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/HCPRegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="83" selection-end-column="84" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/IARegisterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+        <state relative-caret-position="358">
+          <caret line="74" column="36" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/DashboardIAPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

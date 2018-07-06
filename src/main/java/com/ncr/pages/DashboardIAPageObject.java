@@ -15,6 +15,7 @@ public class DashboardIAPageObject extends BasePageObject<DashboardIAPageObject>
     private By totalRegimensHeader = By.cssSelector("div.small-6:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)");
     private By totalHCPHeader = By.cssSelector("div.small-6:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)");
 
+
     protected DashboardIAPageObject(WebDriver driver) throws IOException {
         super(driver);
     }
@@ -33,6 +34,10 @@ public class DashboardIAPageObject extends BasePageObject<DashboardIAPageObject>
         clickOn(profileTab);
         System.out.println("Clicking on profile tab...");
         return new IAProfilePageObject(driver);
+    }
+
+    public String getWelcomeText(){
+        return getText(welcome);
     }
 
 

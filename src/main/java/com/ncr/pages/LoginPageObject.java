@@ -20,6 +20,7 @@ public class LoginPageObject extends BasePageObject<LoginPageObject> {
     private By errorMsg = By.cssSelector(".error-msg > ul:nth-child(1) > li:nth-child(1) > span:nth-child(1)");
     private By resetPassB = By.cssSelector("a.right");
     private By resetPassMsg = By.cssSelector(".success-msg > ul:nth-child(1) > li:nth-child(1) > span:nth-child(1)");
+    private By passUpdateMsg = By.cssSelector(".success-msg > ul:nth-child(1) > li:nth-child(1) > span:nth-child(1)");
 
     protected LoginPageObject(WebDriver driver) throws IOException {
         super(driver);

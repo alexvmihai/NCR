@@ -255,6 +255,15 @@ public class BasePageObject<T> extends BaseTest {
         return lastname;
     }
 
+    public String[] getMemberCredentials(String filePath) throws IOException{
+        Properties properties = new Properties();
+        properties.load(new FileInputStream(filePath));
+        String email = properties.getProperty("member_email_pprd");
+        String pass = properties.getProperty("member_pass_pprd");
+        String[] credentials = {email, pass};
+        return credentials;
+    }
+
 
 
 

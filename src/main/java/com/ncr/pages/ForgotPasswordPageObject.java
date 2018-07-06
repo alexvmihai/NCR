@@ -10,6 +10,10 @@ public class ForgotPasswordPageObject extends BasePageObject<ForgotPasswordPageO
     private By submitB = By.cssSelector(".btn");
     private By emailF = By.cssSelector("#email_address");
     private By header = By.cssSelector(".page-title > h1:nth-child(1)");
+    private By newPassF = By.cssSelector("#password");
+    private By confirmPassF = By.cssSelector("#confirmation");
+    private By submitPassB = By.cssSelector(".btn");
+
 
     protected ForgotPasswordPageObject(WebDriver driver) throws IOException {
         super(driver);
@@ -19,9 +23,12 @@ public class ForgotPasswordPageObject extends BasePageObject<ForgotPasswordPageO
         type(email, emailF);
     }
 
+    public void typePass(String pass){
+        type(pass, newPassF);
+        type(pass, confirmPassF);
+    }
+
     public void waitForPageToLoad(){
-        waitForVisibilityOf(submitB);
-        waitForVisibilityOf(emailF);
         waitForVisibilityOf(header);
     }
 

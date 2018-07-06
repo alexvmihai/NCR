@@ -23,8 +23,9 @@ public class IARegisterTest extends BaseTest {
         profilePage.clickManageIA();
         profilePage.createIA();
         long Random = Math.round(Math.random() * 1357987.0D);
-        String email = "amihai_IA" + Random + "@mailinator.com";
-        profilePage.fillForm("Auto", "IA", email, "123231231231", "Institution Admin");
+        String email = "alex.mihai.optaros+" + Random + "@gmail.com";
+        String firstname = "Auto" + Random;
+        profilePage.fillForm(firstname, "IA", email, "123231231231", "Institution Admin");
         profilePage.submitForm();
         profilePage.waitForPageToLoad();
         String actualMsg = profilePage.getSuccessMsg();
@@ -48,7 +49,34 @@ public class IARegisterTest extends BaseTest {
         String expectedResetPassMsg = "If there is an account associated with this email address you will receive an email with a link to reset your password.".toUpperCase();
         Assert.assertTrue(actualResetPassMsg.equals(expectedResetPassMsg), "The reset pass success msg is not correct !" + "\nExpected: " + expectedResetPassMsg + "\nActual: " + actualResetPassMsg);
 
-
         //open link from email
+        GmailPageObject gmailPage = new GmailPageObject(driver);
+        gmailPage.openGmail();
+        gmailPage.waitForHomepageToLoad();
+        gmailPage.submitEmail();
+        ForgotPasswordPageObject forgotPassPage2 = gmailPage.clickToActivate();
+        forgotPassPage2.waitForPageToLoad();
+        String actualHeader2 = forgotPassPage2.getHeader().toUpperCase();
+        String expectedHeader2 = "Reset Your Password".toUpperCase();
+        Assert.assertTrue(actualHeader2.equals(expectedHeader2), "Forgot pass header not correct !" +"\nExpected: " + expectedHeader2 + "\nActual: " + actualHeader2);
+        String pass = "Ncare123/";
+        forgotPassPage2.typePass(pass);
+        LoginPageObject loginPage4 = forgotPassPage2.submit();
+        loginPage4.waitForPageToLoad();
+        String actualPassUpdateMsg = loginPage4.getPassResetMsg().toUpperCase();
+        String expectedPassUpdateMsg = "your password has been updated.".toUpperCase();
+        Assert.assertTrue(actualPassUpdateMsg.equals(expectedPassUpdateMsg), "Password Update msg not corret !" + "\nExpected: " + expectedPassUpdateMsg + "\nActual: " + actualPassUpdateMsg);
+
+
+        //Log in
+        loginPage4.typeEmail(email);
+        loginPage4.typePass(pass);
+        DashboardIAPageObject dashboard2 = loginPage4.submitIA();
+        dashboard2.waitForPageToLoad();
+
+        String expectedHCPMsg = "Welcome, " + firstname +" IA!";
+        String actualHCPMsg = dashboard2.getWelcomeText();
+        Assert.assertTrue(expectedHCPMsg.equals(actualHCPMsg), "The dashboard message doesn't match !" + "\nExpected: " + expectedHCPMsg + "\nActual: " + actualHCPMsg);
+        System.out.println("Your new account is: " + email + "\nPass: " + pass);
     }
 }
