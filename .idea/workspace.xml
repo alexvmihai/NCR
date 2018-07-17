@@ -4,6 +4,7 @@
     <list default="true" id="6d0ed80b-7ad8-4d53-9cd0-f5e67dd6e327" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../NHSNCR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/NutritionProductsPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/NutritionProductsPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <manually-removed-from-ignored>
@@ -20,11 +21,11 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/..//NHSNCR_reports/" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NutritionProductsTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NutritionProductsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="396">
+              <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,15 +33,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NutritionProductsPageObject.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NutritionProductsPageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/NutritionProductsPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+            <state relative-caret-position="170">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#675#676#0" expanded="true" />
                 <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#3711#3712#0" expanded="true" />
+                <element signature="e#3742#3743#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,8 +114,8 @@
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/PrintRegimenTest.java" />
         <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/HomepageObject.java" />
-        <option value="$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java" />
         <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/NutritionProductsPageObject.java" />
+        <option value="$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java" />
       </list>
     </option>
   </component>
@@ -284,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HCPRegisterTest">
+  <component name="RunManager" selected="TestNG.NutritionProductsTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -306,29 +309,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="CreatePatientTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NHSNCR" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CreatePatientTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
     </configuration>
     <configuration name="D:/NHSNCR/src/test/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NHSNCR" />
@@ -383,6 +363,29 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IARegisterTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="NutritionProductsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NHSNCR" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NutritionProductsTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -474,17 +477,17 @@
     <list>
       <item itemvalue="TestNG.HCPRegisterTest" />
       <item itemvalue="TestNG.PrintRegimenTest" />
-      <item itemvalue="TestNG.CreatePatientTest" />
       <item itemvalue="TestNG.IARegisterTest" />
       <item itemvalue="TestNG.D:/NHSNCR/src/test/resources/testng.xml" />
+      <item itemvalue="TestNG.NutritionProductsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NutritionProductsTest" />
         <item itemvalue="TestNG.HCPRegisterTest" />
         <item itemvalue="TestNG.D:/NHSNCR/src/test/resources/testng.xml" />
         <item itemvalue="TestNG.PrintRegimenTest" />
         <item itemvalue="TestNG.IARegisterTest" />
-        <item itemvalue="TestNG.CreatePatientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -502,15 +505,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IARegisterTest - 2018.07.06 at 14h 43m 57s.xml">
-      <configuration name="IARegisterTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="IARegisterTest - 2018.07.06 at 15h 07m 09s.xml">
-      <configuration name="IARegisterTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__NHSNCR_src_test_resources_testng_xml - 2018.07.06 at 17h 00m 26s.xml">
-      <configuration name="D:/NHSNCR/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HCPRegisterTest - 2018.07.06 at 17h 03m 01s.xml">
       <configuration name="HCPRegisterTest" configurationId="TestNG" />
     </history-entry>
@@ -532,6 +526,15 @@
     <history-entry file="HCPRegisterTest - 2018.07.17 at 15h 16m 53s.xml">
       <configuration name="HCPRegisterTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="NutritionProductsTest - 2018.07.17 at 18h 43m 56s.xml">
+      <configuration name="NutritionProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NutritionProductsTest - 2018.07.17 at 18h 46m 01s.xml">
+      <configuration name="NutritionProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NutritionProductsTest - 2018.07.17 at 18h 48m 30s.xml">
+      <configuration name="NutritionProductsTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,11 +555,11 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.25373134" side_tool="true" visible="true" weight="0.375817" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.25426438" side_tool="true" visible="true" weight="0.375817" />
       <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.08315565" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4978678" weight="0.2875817" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.74626863" visible="true" weight="0.375817" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48827294" weight="0.3224401" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7457356" visible="true" weight="0.375817" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48773986" weight="0.3224401" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
@@ -959,13 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/PrintRegimenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/base/BasePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -984,24 +980,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java">
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/PrintRegimenTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-103">
+          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/NutritionProductsPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#675#676#0" expanded="true" />
             <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#3711#3712#0" expanded="true" />
+            <element signature="e#3742#3743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
