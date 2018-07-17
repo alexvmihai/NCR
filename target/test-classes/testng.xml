@@ -4,15 +4,15 @@
     <listeners>
         <listener class-name="com.ncr.base.TestListener"></listener>
     </listeners>
-    <test name="OpenHomepageTest" >
-        <classes>
-            <class name="OpenHomepageTest" ></class>
-            </classes>
-    </test>
     <test name="HCPRegisterTest">
         <classes>
             <class name="HCPRegisterTest"></class>
         </classes>
+    </test>
+    <test name="OpenHomepageTest" >
+        <classes>
+            <class name="OpenHomepageTest" ></class>
+            </classes>
     </test>
     <test name="LoginTestPositive">
         <classes>
@@ -37,6 +37,11 @@
     <test name="PrintRegimenTest">
         <classes>
             <class name="PrintRegimenTest"></class>
+        </classes>
+    </test>
+    <test name="IARegisterTest">
+        <classes>
+            <class name="IARegisterTest"></class>
         </classes>
     </test>
 

@@ -52,7 +52,6 @@ public class PrintRegimenTest extends CreatePatientTest {
         Format formatter2 = new SimpleDateFormat("yyyy/MM/dd");
         String finalDate = formatter2.format(date1);
 
-
         //Get the start date from the regimen page
 
         Date date2 = new SimpleDateFormat("dd/MM/yyyy").parse(startDate);
@@ -69,9 +68,6 @@ public class PrintRegimenTest extends CreatePatientTest {
         String price = regimenStep2.getPrice();
         System.out.println("The price is: " + price);
 
-
-
-
         RegimenSavedPageObject regimenSavedPage = regimenStep2.submitRegimen();
         System.out.println("Clicked !!");
         regimenSavedPage.waitForPageToLoad();
@@ -80,8 +76,6 @@ public class PrintRegimenTest extends CreatePatientTest {
         String actualText = regimenSavedPage.getConfirmationText();
         Assert.assertTrue(expectedText.equals(actualText), "The confirmation message is not correct !" + "\nExpected: " + expectedText + "\nActual: " + actualText);
         System.out.println("Regimen created successfully !");
-
-
 
         //Print
         PDFPageObject pdfPage = regimenSavedPage.print();

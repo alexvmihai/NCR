@@ -116,5 +116,10 @@ public class HomepageObject extends BasePageObject<HomepageObject> {
         return new RegisterPageObject(driver);
     }
 
+    public NutritionProductsPageObject openNutritionProductsPage() throws IOException {
+        clickOn(nutritionProducts);
+        return new NutritionProductsPageObject(driver);
+    }
+
 
 }
