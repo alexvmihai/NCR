@@ -4,6 +4,7 @@ import com.ncr.base.BasePageObject;
 import org.eclipse.jetty.util.IO;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import java.io.IOException;
 
@@ -40,9 +41,7 @@ public class PatientRegisterPageObject extends BasePageObject<PatientRegisterPag
         System.out.println("Typing patient details...");
         type(firstname, firstnameF);
         type(lastname, lastnameF);
-        clickOn(dobF);
-        Thread.sleep(2000);
-        type(dob, dobF);
+
         type(email, emailF);
         type(number, contactF);
         type(address, addressF);
@@ -50,6 +49,11 @@ public class PatientRegisterPageObject extends BasePageObject<PatientRegisterPag
         type(state, stateF);
         type(postcode, postcodeF);
         type(country, countryF);
+        clickOn(dobF);
+        Thread.sleep(2000);
+        WebElement dobF = driver.findElement(By.cssSelector("#dob"));
+        dobF.sendKeys("10101910");
+        Thread.sleep(2000);
         clickOn(consent);
     }
 
