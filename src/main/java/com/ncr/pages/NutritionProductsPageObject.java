@@ -11,7 +11,7 @@ public class NutritionProductsPageObject extends BasePageObject<NutritionProduct
     private By categTitle = By.cssSelector(".category-name");
     private By searchBox = By.cssSelector("#search");
     private By searchButton = By.cssSelector(".btn-search");
-    private By tree = By.cssSelector(".category6 > span:nth-child(1)");
+    private By tree = By.xpath("/html/body/div[2]/div[3]/div/section/div[1]/div/ul/li[3]/span");
     //Navigation menu
     private By dysphagia = By.cssSelector("#narrow-by-list > li:nth-child(1) > a:nth-child(1)");
     private By optifast = By.cssSelector("div.block:nth-child(1) > div:nth-child(2) > ol:nth-child(1) > li:nth-child(2) > a:nth-child(1)");
@@ -95,6 +95,10 @@ public class NutritionProductsPageObject extends BasePageObject<NutritionProduct
     public void clickGut() throws InterruptedException{
         clickOn(gut);
         Thread.sleep(10000);
+    }
+
+    public String getCrumbText(){
+        return getText(tree);
     }
 
 

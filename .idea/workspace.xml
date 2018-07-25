@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6d0ed80b-7ad8-4d53-9cd0-f5e67dd6e327" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../NHSNCR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/PatientRegisterPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/PatientRegisterPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/NutritionProductsPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/NutritionProductsPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/PatientRegisterPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NHSNCR/target/classes/com/ncr/pages/PatientRegisterPageObject.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <manually-removed-from-ignored>
@@ -22,13 +21,29 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/..///NHSNCR_reports/" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NutritionProductsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NutritionProductsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
+            <state relative-caret-position="304">
+              <caret line="114" column="56" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NutritionProductsPageObject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/NutritionProductsPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3374#3375#0" expanded="true" />
+                <element signature="e#3407#3408#0" expanded="true" />
+                <element signature="e#4791#4792#0" expanded="true" />
+                <element signature="e#4812#4813#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/CreateRegimenTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/RegimenSavedPageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/PDFPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrintRegimenTest.java" />
@@ -119,6 +133,7 @@
         <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/PatientRegisterPageObject.java" />
         <option value="$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java" />
+        <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/NutritionProductsPageObject.java" />
       </list>
     </option>
   </component>
@@ -508,15 +523,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreatePatientTest - 2018.07.24 at 17h 54m 15s.xml">
-      <configuration name="CreatePatientTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreatePatientTest - 2018.07.24 at 17h 55m 25s.xml">
-      <configuration name="CreatePatientTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreatePatientTest - 2018.07.24 at 17h 55m 35s.xml">
-      <configuration name="CreatePatientTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CreatePatientTest - 2018.07.24 at 17h 58m 24s.xml">
       <configuration name="CreatePatientTest" configurationId="TestNG" />
     </history-entry>
@@ -536,6 +542,15 @@
       <configuration name="NutritionProductsTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="NutritionProductsTest - 2018.07.25 at 14h 14m 37s.xml">
+      <configuration name="NutritionProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NutritionProductsTest - 2018.07.25 at 14h 17m 37s.xml">
+      <configuration name="NutritionProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NutritionProductsTest - 2018.07.25 at 14h 49m 16s.xml">
+      <configuration name="NutritionProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NutritionProductsTest - 2018.07.25 at 14h 52m 59s.xml">
       <configuration name="NutritionProductsTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -558,11 +573,11 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2553305" side_tool="true" visible="true" weight="0.375817" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.25586355" side_tool="true" visible="true" weight="0.375817" />
       <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.08315565" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4978678" weight="0.2875817" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7446695" visible="true" weight="0.375817" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48667377" weight="0.3224401" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.74413645" visible="true" weight="0.375817" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48614073" weight="0.3224401" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
@@ -958,18 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/NutritionProductsPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3374#3375#0" expanded="true" />
-            <element signature="e#3407#3408#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/PatientRegisterPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -993,10 +996,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
+        <state relative-caret-position="304">
+          <caret line="114" column="56" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/NutritionProductsPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3374#3375#0" expanded="true" />
+            <element signature="e#3407#3408#0" expanded="true" />
+            <element signature="e#4791#4792#0" expanded="true" />
+            <element signature="e#4812#4813#0" expanded="true" />
           </folding>
         </state>
       </provider>
