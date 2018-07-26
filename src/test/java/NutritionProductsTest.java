@@ -20,6 +20,7 @@ public class NutritionProductsTest extends BaseTest {
         Assert.assertTrue(expectedPageTitle.equals(actualTitle), "The page title is not correct !" + "\nExpected: " + expectedPageTitle + "\nActual: " + actualTitle);
         System.out.println("Page title correct !!");
 
+
         nutritionPage.clickDysphagia();
         String expectedTitle1 = nutritionPage.getCategTitleText();
         String actualTitle1 = "Dysphagia";
@@ -30,7 +31,7 @@ public class NutritionProductsTest extends BaseTest {
         String expectedCrumb1 = "Dysphagia";
         String actualCrumb1 = nutritionPage.getCrumbText();
         Assert.assertTrue(expectedCrumb1.equals(actualCrumb1), "Crumb text not correct !" + "\nExpected: " + expectedCrumb1 + "\nActual: " + actualCrumb1 );
-
+        Assert.assertTrue(nutritionPage.productsVisible(), "No products visible in the " + expectedTitle1 + " category !");
 
         nutritionPage.clickOptifast();
         String expectedTitle2 = nutritionPage.getCategTitleText();
@@ -42,6 +43,7 @@ public class NutritionProductsTest extends BaseTest {
         String expectedCrumb2 = "Optifast";
         String actualCrumb2 = nutritionPage.getCrumbText();
         Assert.assertTrue(expectedCrumb2.equals(actualCrumb2), "Crumb text not correct !" + "\nExpected: " + expectedCrumb2 + "\nActual: " + actualCrumb2);
+        Assert.assertTrue(nutritionPage.productsVisible(), "No products visible in the " + expectedTitle2 + " category !");
 
 
         nutritionPage.clickOral();
@@ -54,6 +56,7 @@ public class NutritionProductsTest extends BaseTest {
         String expectedCrumb3 = "Oral Supplements";
         String actualCrumb3 = nutritionPage.getCrumbText();
         Assert.assertTrue(expectedCrumb3.equals(actualCrumb3), "Crumb text not correct !" + "\nExpected: " + expectedCrumb3 + "\nActual: " + actualCrumb3);
+        Assert.assertTrue(nutritionPage.productsVisible(), "No products visible in the " + expectedTitle3 + " category !");
 
 
         nutritionPage.clickPaediatrics();
@@ -66,6 +69,7 @@ public class NutritionProductsTest extends BaseTest {
         String expectedCrumb4 = "Paediatrics";
         String actualCrumb4 = nutritionPage.getCrumbText();
         Assert.assertTrue(expectedCrumb4.equals(actualCrumb4), "Crumb text not correct !" + "\nExpected: " + expectedCrumb4 + "\nActual: " + actualCrumb4);
+        Assert.assertTrue(nutritionPage.productsVisible(), "No products visible in the " + expectedTitle4 + " category !");
 
 
         nutritionPage.clickSustagen();
@@ -78,6 +82,7 @@ public class NutritionProductsTest extends BaseTest {
         String expectedCrumb5 = "Sustagen";
         String actualCrumb5 = nutritionPage.getCrumbText();
         Assert.assertTrue(expectedCrumb5.equals(actualCrumb5), "Crumb text not correct !" + "\nExpected: " + expectedCrumb5 + "\nActual: " + actualCrumb5);
+        Assert.assertTrue(nutritionPage.productsVisible(), "No products visible in the " + expectedTitle5 + " category !");
 
 
         nutritionPage.clickTube();
@@ -90,6 +95,7 @@ public class NutritionProductsTest extends BaseTest {
         String expectedCrumb6 = "Tube Feeds";
         String actualCrumb6 = nutritionPage.getCrumbText();
         Assert.assertTrue(expectedCrumb6.equals(actualCrumb6), "Crumb text not correct !" + "\nExpected: " + expectedCrumb6 + "\nActual: " + actualCrumb6);
+        Assert.assertTrue(nutritionPage.productsVisible(), "No products visible in the " + expectedTitle6 + " category !");
 
 
         nutritionPage.clickConsumables();
@@ -102,6 +108,7 @@ public class NutritionProductsTest extends BaseTest {
 //        String expectedCrumb7 = "Nutrition Products / Consumables";
 //        String actualCrumb7 = nutritionPage.getCrumbText();
 //        Assert.assertTrue(expectedCrumb7.equals(actualCrumb7), "Crumb text not correct !" + "\nExpected: " + expectedCrumb7 + "\nActual: " + actualCrumb7);
+//        Assert.assertTrue(nutritionPage.productsVisible(), "No products visible in the " + expectedTitle7 + " category !");
 
 
         nutritionPage.clickGut();
@@ -114,14 +121,7 @@ public class NutritionProductsTest extends BaseTest {
         String expectedCrumb8 = "Gut Health";
         String actualCrumb8 = nutritionPage.getCrumbText();
         Assert.assertTrue(expectedCrumb8.equals(actualCrumb8), "Crumb text not correct !" + "\nExpected: " + expectedCrumb8 + "\nActual: " + actualCrumb8);
-
-
-
-
-        //Add page title validation and breadcrumb validation
-
-
-
+        Assert.assertTrue(nutritionPage.productsVisible(), "No products visible in the " + expectedTitle8 + " category !");
 
 
     }

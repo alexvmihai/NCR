@@ -3,6 +3,7 @@ package com.ncr.pages;
 import com.ncr.base.BasePageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import java.io.IOException;
 
@@ -34,6 +35,7 @@ public class NutritionProductsPageObject extends BasePageObject<NutritionProduct
     private By unit = By.cssSelector("dt.active:nth-child(3) > span:nth-child(1)");
     private By caseF = By.cssSelector("dd.sln-type-checkbox:nth-child(4) > ol:nth-child(1) > li:nth-child(1) > a:nth-child(1)");
     private By each = By.cssSelector("dd.sln-type-checkbox:nth-child(4) > ol:nth-child(1) > li:nth-child(2) > a:nth-child(1)");
+    private By toolbar = By.cssSelector("div.toolbar:nth-child(2)");
 
 
 
@@ -99,6 +101,11 @@ public class NutritionProductsPageObject extends BasePageObject<NutritionProduct
 
     public String getCrumbText(){
         return getText(tree);
+    }
+
+    public boolean productsVisible(){
+        boolean exists = driver.findElements(By.cssSelector("div.toolbar:nth-child(2)")).size() !=0;
+        return exists;
     }
 
 

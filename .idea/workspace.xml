@@ -21,11 +21,11 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/..///NHSNCR_reports/" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NutritionProductsTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NutritionProductsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="114" column="56" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="56" />
+            <state relative-caret-position="136">
+              <caret line="110" column="125" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="125" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NutritionProductsPageObject.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NutritionProductsPageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/NutritionProductsPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+            <state relative-caret-position="355">
+              <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3374#3375#0" expanded="true" />
@@ -132,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/NutritionProductsPageObject.java" />
         <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/PatientRegisterPageObject.java" />
-        <option value="$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java" />
         <option value="$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/NutritionProductsPageObject.java" />
+        <option value="$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java" />
       </list>
     </option>
   </component>
@@ -156,8 +156,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1833" />
-    <option name="y" value="-8" />
+    <option name="x" value="1930" />
+    <option name="y" value="-16" />
     <option name="width" value="1920" />
     <option name="height" value="1047" />
   </component>
@@ -523,21 +523,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreatePatientTest - 2018.07.24 at 17h 58m 24s.xml">
-      <configuration name="CreatePatientTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreatePatientTest - 2018.07.24 at 18h 22m 59s.xml">
-      <configuration name="CreatePatientTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreatePatientTest - 2018.07.24 at 18h 24m 05s.xml">
-      <configuration name="CreatePatientTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NutritionProductsTest - 2018.07.25 at 12h 06m 51s.xml">
-      <configuration name="NutritionProductsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NutritionProductsTest - 2018.07.25 at 13h 55m 41s.xml">
-      <configuration name="NutritionProductsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="NutritionProductsTest - 2018.07.25 at 13h 58m 03s.xml">
       <configuration name="NutritionProductsTest" configurationId="TestNG" />
     </history-entry>
@@ -551,6 +536,21 @@
       <configuration name="NutritionProductsTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="NutritionProductsTest - 2018.07.25 at 14h 52m 59s.xml">
+      <configuration name="NutritionProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NutritionProductsTest - 2018.07.25 at 18h 08m 37s.xml">
+      <configuration name="NutritionProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NutritionProductsTest - 2018.07.26 at 11h 13m 12s.xml">
+      <configuration name="NutritionProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NutritionProductsTest - 2018.07.26 at 11h 16m 11s.xml">
+      <configuration name="NutritionProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NutritionProductsTest - 2018.07.26 at 11h 21m 54s.xml">
+      <configuration name="NutritionProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NutritionProductsTest - 2018.07.26 at 11h 26m 37s.xml">
       <configuration name="NutritionProductsTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -573,11 +573,11 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.25586355" side_tool="true" visible="true" weight="0.375817" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2563966" side_tool="true" visible="true" weight="0.375817" />
       <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.08315565" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4978678" weight="0.2875817" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.74413645" visible="true" weight="0.375817" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48614073" weight="0.3224401" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7436034" visible="true" weight="0.375817" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48560768" weight="0.3224401" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
@@ -994,26 +994,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="114" column="56" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../NHSNCR/src/main/java/com/ncr/pages/NutritionProductsPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+        <state relative-caret-position="355">
+          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3374#3375#0" expanded="true" />
             <element signature="e#3407#3408#0" expanded="true" />
             <element signature="e#4791#4792#0" expanded="true" />
             <element signature="e#4812#4813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NHSNCR/src/test/java/NutritionProductsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="110" column="125" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="125" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
