@@ -4,6 +4,7 @@ import com.ncr.base.BasePageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 import java.io.IOException;
 
@@ -13,6 +14,7 @@ public class NutritionProductsPageObject extends BasePageObject<NutritionProduct
     private By searchBox = By.cssSelector("#search");
     private By searchButton = By.cssSelector(".btn-search");
     private By tree = By.xpath("/html/body/div[2]/div[3]/div/section/div[1]/div/ul/li[3]/span");
+    private By textFirstProduct = By.cssSelector("ul.products-grid:nth-child(1) > li:nth-child(1) > h2:nth-child(2) > a:nth-child(1)");
     //Navigation menu
     private By dysphagia = By.cssSelector("#narrow-by-list > li:nth-child(1) > a:nth-child(1)");
     private By optifast = By.cssSelector("div.block:nth-child(1) > div:nth-child(2) > ol:nth-child(1) > li:nth-child(2) > a:nth-child(1)");
@@ -106,6 +108,32 @@ public class NutritionProductsPageObject extends BasePageObject<NutritionProduct
     public boolean productsVisible(){
         boolean exists = driver.findElements(By.cssSelector("div.toolbar:nth-child(2)")).size() !=0;
         return exists;
+    }
+
+    public String getFirstProductText(){
+        return getText(textFirstProduct);
+    }
+
+    public void sortName() throws InterruptedException {
+        WebElement filter = driver.findElement(By.cssSelector("div.toolbar:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > select:nth-child(1)"));
+        Select select = new Select(filter);
+        select.selectByVisibleText("Name");
+        Thread.sleep(7000);
+    }
+
+    public void sortPosition() throws InterruptedException {
+        WebElement filter = driver.findElement(By.cssSelector("div.toolbar:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > select:nth-child(1)"));
+        Select select = new Select(filter);
+        select.selectByVisibleText("Position");
+        Thread.sleep(7000);
+
+    }
+
+    public void sortPrice() throws InterruptedException{
+        WebElement filter = driver.findElement(By.cssSelector("div.toolbar:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > select:nth-child(1)"));
+        Select select = new Select(filter);
+        select.selectByVisibleText("Price");
+        Thread.sleep(7000);
     }
 
 

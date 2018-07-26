@@ -44,6 +44,11 @@ public class NutritionProductsTest extends BaseTest {
         String actualCrumb2 = nutritionPage.getCrumbText();
         Assert.assertTrue(expectedCrumb2.equals(actualCrumb2), "Crumb text not correct !" + "\nExpected: " + expectedCrumb2 + "\nActual: " + actualCrumb2);
         Assert.assertTrue(nutritionPage.productsVisible(), "No products visible in the " + expectedTitle2 + " category !");
+        nutritionPage.sortName();
+        String expectedName = "OPTIFAST® VLCD™ Bar 60g";
+        String actualName = nutritionPage.getFirstProductText();
+        Assert.assertTrue(expectedName.equals(actualName), "Name filter doesn't work !");
+
 
 
         nutritionPage.clickOral();
