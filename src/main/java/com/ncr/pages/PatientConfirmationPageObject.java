@@ -36,4 +36,9 @@ public class PatientConfirmationPageObject extends BasePageObject<PatientConfirm
         clickOn(createRegimenB);
         return new RegimenStep1PageObject(driver);
     }
+
+    public PatientDetailsPageObject clickPatientDetails() throws IOException {
+        clickOn(patientDetailsB);
+        return new PatientDetailsPageObject(driver);
+    }
 }
