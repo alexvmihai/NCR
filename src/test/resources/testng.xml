@@ -49,5 +49,10 @@
             <class name="NutritionProductsTest"></class>
         </classes>
     </test>
+    <test name = "CreateCarerTest">
+        <classes>
+            <class name ="CreateCarerTest"></class>
+        </classes>
+    </test>
 
 </suite>
