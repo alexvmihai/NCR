@@ -3,6 +3,7 @@ package com.ncr.pages;
 import com.ncr.base.BasePageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 import java.io.IOException;
@@ -14,7 +15,7 @@ public class BECustomerInfoPageObject extends BasePageObject<BECustomerInfoPageO
     private By saveContinueButton = By.cssSelector("button[title=\"Save and Continue Edit\"]");
     private By status = By.cssSelector("#_accountstatus");
     private By successMessage = By.cssSelector("#messages > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > span:nth-child(1)");
-
+    private By typeF = By.cssSelector("#_accountcustomer_type");
 
 
     protected BECustomerInfoPageObject(WebDriver driver) throws IOException {
@@ -50,6 +51,13 @@ public class BECustomerInfoPageObject extends BasePageObject<BECustomerInfoPageO
     public String getSuccessMessage(){
         waitForVisibilityOf(successMessage);
         return getText(successMessage);
+    }
+
+    public String getCustomerType(){
+        Select select = new Select(driver.findElement(By.cssSelector("#_accountcustomer_type")));
+        WebElement type = select.getFirstSelectedOption();
+        String customerType = type.getText();
+        return customerType;
     }
 
 }

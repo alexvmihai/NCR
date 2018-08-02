@@ -1,6 +1,5 @@
 import com.ncr.base.BaseTest;
-import com.ncr.pages.PatientConfirmationPageObject;
-import com.ncr.pages.PatientDetailsPageObject;
+import com.ncr.pages.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.io.IOException;
@@ -33,8 +32,29 @@ public class CreateCarerTest extends CreatePatientTest {
         + "\nActual: " + actualMsg);
 
         //Check the account on BE
-
-
+        BackEndLoginPageObject loginPage = new BackEndLoginPageObject(driver);
+        loginPage.openLoginPage();
+        loginPage.waitForPageToLoad();
+        String[] credentials = loginPage.getAdminCredentials();
+        loginPage.typeUsername(credentials[0]);
+        loginPage.typePassword(credentials[1]);
+        BackEndDashboardPageObject dashboard = loginPage.login();
+        dashboard.waitForPageToLoad();
+        dashboard.mouseOverCustomers();
+        BEManageCustomersPageObject manageCustomers = dashboard.clickManageCustomers();
+        manageCustomers.waitForPageToLoad();
+        String fullName = firstname + " " + lastname;
+        manageCustomers.searchByName(fullName);
+        BECustomerInfoPageObject editCustomer = manageCustomers.editCustomer();
+        editCustomer.openAccountInfo();
+        String expectedType = "Carer";
+        String actualType = editCustomer.getCustomerType();
+        Assert.assertTrue(expectedType.equals(actualType), "Customer type not correct !" + "\nExpected: " + expectedType
+        + "\nActual: " + actualType);
+        String actualName = editCustomer.getHeaderText();
+        System.out.println(actualName);
+        Assert.assertTrue(fullName.equals(actualName), "Patient Name is not correct on BE !" + "\nExpected: " + fullName
+        + "\nActual: " + actualName);
 
 
 

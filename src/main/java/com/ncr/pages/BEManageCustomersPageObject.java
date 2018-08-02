@@ -14,6 +14,7 @@ public class BEManageCustomersPageObject extends BasePageObject<BEManageCustomer
     private By addCustomerButton = By.cssSelector("div.content-header:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > button:nth-child(1)");
     private By emailF = By.cssSelector("#customerGrid_filter_email");
     private By result = By.cssSelector("td.last > a:nth-child(1)");
+    private By nameF = By.cssSelector("#customerGrid_filter_name");
 
 
     protected BEManageCustomersPageObject(WebDriver driver) throws IOException {
@@ -38,6 +39,14 @@ public class BEManageCustomersPageObject extends BasePageObject<BEManageCustomer
         clickOn(result);
         System.out.println("Opening the Customer Info Page...");
         return new BECustomerInfoPageObject(driver);
+    }
+
+    public void searchByName(String name) throws InterruptedException{
+        type(name, nameF);
+        System.out.println("Typing name...");
+        WebElement element = driver.findElement(By.cssSelector("#customerGrid_filter_name"));
+        element.sendKeys(Keys.RETURN);
+        Thread.sleep(5000);
     }
 
 
