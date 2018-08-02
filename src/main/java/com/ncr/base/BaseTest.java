@@ -20,6 +20,7 @@ public class BaseTest  {
         System.out.println("Test set up !");
         System.setProperty("webdriver.gecko.driver","src/main/resources/geckodriver.exe");
         driver = new FirefoxDriver(qa);
+        driver.manage().deleteAllCookies();
     }
 
     @BeforeClass

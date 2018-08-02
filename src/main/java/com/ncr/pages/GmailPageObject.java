@@ -15,7 +15,7 @@ public class GmailPageObject extends BasePageObject<GmailPageObject> {
 
 
     private String url = "https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin";
-    private By header = By.cssSelector("#headingText");
+    private By header = By.cssSelector(".gb_Va");
     private By goButton = By.cssSelector(".btn.btn-dark");
     private By emailSubject = By.xpath("/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div/div[6]/div/div[1]/div[2]/div/table/tbody/tr[1]/td[6]/div/div/div/span[1]/b");
     private By clickToActivate = By.xpath("/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[3]/div[3]/div/div[2]/div[2]/table/tbody/tr/td/table[2]/tbody/tr[1]/td/span/a[1]");

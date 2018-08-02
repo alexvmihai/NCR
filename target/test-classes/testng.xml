@@ -44,5 +44,10 @@
             <class name="IARegisterTest"></class>
         </classes>
     </test>
+    <test name = "NutritionProductsTest">
+        <classes>
+            <class name="NutritionProductsTest"></class>
+        </classes>
+    </test>
 
 </suite>

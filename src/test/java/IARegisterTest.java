@@ -53,7 +53,7 @@ public class IARegisterTest extends BaseTest {
         GmailPageObject gmailPage = new GmailPageObject(driver);
         gmailPage.openGmail();
         gmailPage.waitForHomepageToLoad();
-        gmailPage.submitEmail();
+//        gmailPage.submitEmail();
         ForgotPasswordPageObject forgotPassPage2 = gmailPage.clickToActivate();
         forgotPassPage2.waitForPageToLoad();
         String actualHeader2 = forgotPassPage2.getHeader().toUpperCase();

@@ -11,6 +11,7 @@ public class PatientConfirmationPageObject extends BasePageObject<PatientConfirm
     private By confirmationText = By.cssSelector(".fieldset > p:nth-child(4)");
     private By patientDetailsB = By.cssSelector("button.button:nth-child(1)");
     private By createRegimenB = By.cssSelector("button.button:nth-child(2)");
+    private By patientName = By.cssSelector(".fieldset > p:nth-child(4) > a:nth-child(1)");
 
 
     public PatientConfirmationPageObject(WebDriver driver) throws IOException {
@@ -40,5 +41,9 @@ public class PatientConfirmationPageObject extends BasePageObject<PatientConfirm
     public PatientDetailsPageObject clickPatientDetails() throws IOException {
         clickOn(patientDetailsB);
         return new PatientDetailsPageObject(driver);
+    }
+
+    public String getPatientName(){
+        return getText(patientName);
     }
 }
