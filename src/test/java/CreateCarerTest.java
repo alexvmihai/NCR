@@ -30,6 +30,7 @@ public class CreateCarerTest extends CreatePatientTest {
         String actualMsg = patientDetails.getConfirmation().toLowerCase();
         Assert.assertTrue(expectedMsg.equals(actualMsg), "Confirmation message not correct !" + "\nExpected: " + expectedMsg
         + "\nActual: " + actualMsg);
+        String email = patientDetails.getEmail();
 
         //Check the account on BE
         BackEndLoginPageObject loginPage = new BackEndLoginPageObject(driver);
@@ -56,7 +57,10 @@ public class CreateCarerTest extends CreatePatientTest {
         Assert.assertTrue(fullName.equals(actualName), "Patient Name is not correct on BE !" + "\nExpected: " + fullName
         + "\nActual: " + actualName);
 
-
+        //email validation
+        String beEmail = editCustomer.getBEemail();
+        System.out.println(beEmail);
+        Assert.assertTrue(email.equals(beEmail), "Email not correct !" + "\nFrontEnd: " + email + "\nBackEnd: " + beEmail);
 
     }
 }

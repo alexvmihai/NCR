@@ -16,6 +16,7 @@ public class BECustomerInfoPageObject extends BasePageObject<BECustomerInfoPageO
     private By status = By.cssSelector("#_accountstatus");
     private By successMessage = By.cssSelector("#messages > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > span:nth-child(1)");
     private By typeF = By.cssSelector("#_accountcustomer_type");
+    private By emailF = By.cssSelector("#_accountemail");
 
 
     protected BECustomerInfoPageObject(WebDriver driver) throws IOException {
@@ -35,7 +36,7 @@ public class BECustomerInfoPageObject extends BasePageObject<BECustomerInfoPageO
     public void openAccountInfo() throws InterruptedException {
         System.out.println("Clicking on Account info...");
         clickOn(accountInfo);
-        Thread.sleep(3000);
+        Thread.sleep(6000);
     }
 
     public void setActive(){
@@ -58,6 +59,12 @@ public class BECustomerInfoPageObject extends BasePageObject<BECustomerInfoPageO
         WebElement type = select.getFirstSelectedOption();
         String customerType = type.getText();
         return customerType;
+    }
+
+    public String getBEemail(){
+        WebElement email = driver.findElement(By.cssSelector("#_accountemail"));
+        String value = email.getAttribute("value");
+        return value;
     }
 
 }

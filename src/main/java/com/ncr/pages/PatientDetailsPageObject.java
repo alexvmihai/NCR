@@ -16,6 +16,7 @@ public class PatientDetailsPageObject extends BasePageObject<PatientDetailsPageO
     private By saveCarerB = By.cssSelector("div.clearfix:nth-child(3) > button:nth-child(2)");
     private By editCarerB = By.cssSelector("#carer-form-update-btn");
     private By successMsg = By.cssSelector(".success-msg > ul:nth-child(1) > li:nth-child(1)");
+    private By emailF = By.cssSelector(".carer_email > label:nth-child(1)");
 
     //Carer form
     private By firstnameF = By.cssSelector(".carer_firstname > input:nth-child(1)");
@@ -58,6 +59,10 @@ public class PatientDetailsPageObject extends BasePageObject<PatientDetailsPageO
 
     public String getConfirmation (){
         return getText(successMsg);
+    }
+
+    public String getEmail (){
+        return getText(emailF);
     }
 
 
