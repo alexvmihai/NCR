@@ -9,6 +9,7 @@ import java.io.IOException;
 public class LoginTestNegative extends BaseTest {
     @Test
     public void LoginTestNegative() throws IOException, InterruptedException {
+        driver.manage().deleteAllCookies();
         HomepageObject homepage = new HomepageObject(driver);
         homepage.openHomepage();
         homepage.acceptPrompt();

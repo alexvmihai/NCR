@@ -1,5 +1,6 @@
 package com.ncr.base;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
@@ -9,8 +10,9 @@ import org.testng.ITestResult;
 public class RetryAnalyzer implements IRetryAnalyzer{
     int counter = 0;
     int retryLimit = 6;
+    protected WebDriver driver;
 
-    public boolean retry(ITestResult iTestResult){
+    public boolean retry(ITestResult iTestResult) {
         if(counter < retryLimit){
             counter++;
             return true;

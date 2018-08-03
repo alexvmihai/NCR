@@ -9,6 +9,7 @@ import java.io.IOException;
 public class HCPRegisterTest extends BaseTest {
     @Test
     public void HCPRegister() throws IOException, InterruptedException {
+        driver.manage().deleteAllCookies();
         HomepageObject homepage = new HomepageObject(driver);
         homepage.openHomepage();
         homepage.acceptPrompt();

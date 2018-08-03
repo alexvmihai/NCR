@@ -14,6 +14,7 @@ import java.io.IOException;
 public class LoginTestPositiveHCP extends BaseTest{
     @Test
     public void loginTestPositive() throws IOException, InterruptedException {
+        driver.manage().deleteAllCookies();
         HomepageObject homepage = new HomepageObject(driver);
         homepage.openHomepage();
         homepage.acceptPrompt();

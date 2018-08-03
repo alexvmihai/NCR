@@ -10,6 +10,7 @@ public class NutritionProductsTest extends BaseTest {
 
     @Test
     public void NutritionProductsTest() throws IOException, InterruptedException {
+        driver.manage().deleteAllCookies();
         HomepageObject homepage = new HomepageObject(driver);
         homepage.openHomepage();
         homepage.waitForPageToLoad();

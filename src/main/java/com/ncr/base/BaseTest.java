@@ -5,7 +5,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 
 /**
  * Created by alex.mihai on 6/26/2017.
@@ -29,9 +31,9 @@ public class BaseTest  {
         return env;
     }
 
-//    @AfterClass
-//    public void methodTearDown(){
-//        System.out.println("Test clean up !");
-//        driver.quit();
-//    }
+    @AfterClass
+    public void methodTearDown(){
+        System.out.println("Test clean up !");
+        driver.quit();
+    }
 }

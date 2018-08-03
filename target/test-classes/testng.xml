@@ -4,55 +4,55 @@
     <listeners>
         <listener class-name="com.ncr.base.TestListener"></listener>
     </listeners>
-    <test name="HCPRegisterTest">
-        <classes>
-            <class name="HCPRegisterTest"></class>
-        </classes>
-    </test>
-    <test name="OpenHomepageTest" >
-        <classes>
-            <class name="OpenHomepageTest" ></class>
-            </classes>
-    </test>
-    <test name="LoginTestPositive">
-        <classes>
-            <class name="LoginTestPositiveHCP"></class>
-        </classes>
-    </test>
+    <!--<test name="HCPRegisterTest">-->
+        <!--<classes>-->
+            <!--<class name="HCPRegisterTest"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="OpenHomepageTest" >-->
+        <!--<classes>-->
+            <!--<class name="OpenHomepageTest" ></class>-->
+            <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="LoginTestPositive">-->
+        <!--<classes>-->
+            <!--<class name="LoginTestPositiveHCP"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
     <test name="CreatePatientTest">
         <classes>
             <class name="CreatePatientTest"></class>
         </classes>
     </test>
-    <test name="CreateRegimenTest">
-        <classes>
-            <class name="CreateRegimenTest"></class>
-        </classes>
-    </test>
-    <test name="LoginTestNegative">
-        <classes>
-            <class name="LoginTestNegative"></class>
-        </classes>
-    </test>
-    <test name="PrintRegimenTest">
-        <classes>
-            <class name="PrintRegimenTest"></class>
-        </classes>
-    </test>
-    <test name="IARegisterTest">
-        <classes>
-            <class name="IARegisterTest"></class>
-        </classes>
-    </test>
-    <test name = "NutritionProductsTest">
-        <classes>
-            <class name="NutritionProductsTest"></class>
-        </classes>
-    </test>
-    <test name = "CreateCarerTest">
-        <classes>
-            <class name ="CreateCarerTest"></class>
-        </classes>
-    </test>
+    <!--<test name="CreateRegimenTest">-->
+        <!--<classes>-->
+            <!--<class name="CreateRegimenTest"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="LoginTestNegative">-->
+        <!--<classes>-->
+            <!--<class name="LoginTestNegative"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="PrintRegimenTest">-->
+        <!--<classes>-->
+            <!--<class name="PrintRegimenTest"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="IARegisterTest">-->
+        <!--<classes>-->
+            <!--<class name="IARegisterTest"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "NutritionProductsTest">-->
+        <!--<classes>-->
+            <!--<class name="NutritionProductsTest"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "CreateCarerTest">-->
+        <!--<classes>-->
+            <!--<class name ="CreateCarerTest"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
 
 </suite>

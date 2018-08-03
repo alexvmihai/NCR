@@ -8,6 +8,7 @@ import java.io.IOException;
 public class IARegisterTest extends BaseTest {
     @Test
     public void IARegisterTest() throws IOException, InterruptedException {
+        driver.manage().deleteAllCookies();
         HomepageObject homepage = new HomepageObject(driver);
         homepage.openHomepage();
         homepage.waitForPageToLoad();
