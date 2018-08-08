@@ -93,6 +93,12 @@ public class CreateCarerTest extends BaseTest {
         loginPage.typeUsername(credentials[0]);
         loginPage.typePassword(credentials[1]);
         BackEndDashboardPageObject dashboard3 = loginPage.login();
+        Thread.sleep(5000);
+        if(dashboard3.isPopUpPresent()){
+            dashboard3.closePopUp();
+        } else {
+            System.out.println("No pop-up here !");
+        }
         dashboard3.waitForPageToLoad();
         dashboard3.mouseOverCustomers();
         BEManageCustomersPageObject manageCustomers = dashboard3.clickManageCustomers();
