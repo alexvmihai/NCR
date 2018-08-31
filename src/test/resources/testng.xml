@@ -56,3 +56,19 @@
     </test>
 
 </suite>
+
+<!--<suite name="Grid" parallel = "tests">-->
+<!--<test name ="OpenHomepageTest">-->
+    <!--<parameter name = "browser" value = "firefox" />-->
+    <!--<classes>-->
+        <!--<class name = "OpenHomepageTest"></class>-->
+    <!--</classes>-->
+<!--</test>-->
+
+<!--<test name ="OpenHomepageTest2">-->
+    <!--<parameter name = "browser" value = "chrome" />-->
+    <!--<classes>-->
+        <!--<class name = "OpenHomepageTest"></class>-->
+    <!--</classes>-->
+<!--</test>-->
+<!--</suite>-->

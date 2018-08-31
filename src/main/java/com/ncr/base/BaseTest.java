@@ -1,13 +1,16 @@
 package com.ncr.base;
 
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.internal.ProfilesIni;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.*;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 /**
  * Created by alex.mihai on 6/26/2017.
@@ -24,6 +27,33 @@ public class BaseTest  {
         driver = new FirefoxDriver(qa);
         driver.manage().deleteAllCookies();
     }
+
+    //Selenium Grid - Docker
+//    @Parameters({"browser"})
+//    @BeforeClass
+//    public void methodSetUp(String browser) throws MalformedURLException {
+//        System.out.println("Test set up !");
+//        DesiredCapabilities cap = DesiredCapabilities.firefox();
+////        switch (browser)
+////        {
+////            case "firefox":
+////                cap = DesiredCapabilities.firefox();
+////                break;
+////            case "ie":
+////                cap = DesiredCapabilities.internetExplorer();
+////                break;
+////            case "chrome":
+////                cap = DesiredCapabilities.chrome();
+////                break;
+////            default:
+////                cap = DesiredCapabilities.firefox();
+////                break;
+////        }
+//
+//        cap.setPlatform(Platform.WIN10);
+//        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
+
+//    }
 
     @BeforeClass
     public String setEnv(){

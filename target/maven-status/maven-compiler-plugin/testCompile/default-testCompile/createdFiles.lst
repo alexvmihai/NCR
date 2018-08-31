@@ -1,0 +1,10 @@
+OpenHomepageTest.class
+CreateCarerTest.class
+CreatePatientTest.class
+CreateRegimenTest.class
+HCPRegisterTest.class
+LoginTestNegative.class
+PrintRegimenTest.class
+IARegisterTest.class
+NutritionProductsTest.class
+LoginTestPositiveHCP.class

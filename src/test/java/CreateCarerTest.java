@@ -77,11 +77,11 @@ public class CreateCarerTest extends BaseTest {
         String lastname2 = "carerLastname" + Random;
         String number = "1231131232";
         String relation = "Husband";
-        patientDetails.fillCarerDetails(firstname, lastname, number, relation);
+        patientDetails.fillCarerDetails(firstname2, lastname2, number, relation);
         patientDetails.saveCarer();
         String expectedMsg2 = "Patient's carer has been successfully saved".toLowerCase();
         String actualMsg2 = patientDetails.getConfirmation().toLowerCase();
-        Assert.assertTrue(expectedMsg.equals(actualMsg), "Confirmation message not correct !" + "\nExpected: " + expectedMsg
+        Assert.assertTrue(expectedMsg2.equals(actualMsg2), "Confirmation message not correct !" + "\nExpected: " + expectedMsg
         + "\nActual: " + actualMsg);
         String email2 = patientDetails.getEmail();
 
@@ -103,7 +103,7 @@ public class CreateCarerTest extends BaseTest {
         dashboard3.mouseOverCustomers();
         BEManageCustomersPageObject manageCustomers = dashboard3.clickManageCustomers();
         manageCustomers.waitForPageToLoad();
-        String fullName = firstname + " " + lastname;
+        String fullName = firstname2 + " " + lastname2;
         manageCustomers.searchByName(fullName);
         BECustomerInfoPageObject editCustomer = manageCustomers.editCustomer();
         editCustomer.openAccountInfo();

@@ -35,8 +35,9 @@ public class BEManageCustomersPageObject extends BasePageObject<BEManageCustomer
         Thread.sleep(4000);
     }
 
-    public BECustomerInfoPageObject editCustomer() throws IOException {
+    public BECustomerInfoPageObject editCustomer() throws IOException, InterruptedException {
         clickOn(result);
+        Thread.sleep(30000);
         System.out.println("Opening the Customer Info Page...");
         return new BECustomerInfoPageObject(driver);
     }
