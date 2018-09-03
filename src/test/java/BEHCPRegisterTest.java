@@ -40,8 +40,14 @@ public class BEHCPRegisterTest extends BaseTest {
         String expectedSaveMsg = "The customer has been saved.";
         String actualSaveMsg = infoPage.getSuccessMessage();
         Assert.assertTrue(expectedSaveMsg.equals(actualSaveMsg), "Success Msg not correct !" + "\nExpected: " + expectedSaveMsg + "\nActual: " + actualSaveMsg);
+        String expectedName = firstname + " " + lastname;
+        String actualName = infoPage.getHeaderText();
+        Assert.assertTrue(expectedName.equals(actualName), "The name is not correct !" + "\nExpected: " + expectedName +"\nActual: " + actualName);
+        String expectedType = "HCP";
+        String actualType = infoPage.getCustomerType();
+        Assert.assertTrue(expectedType.equals(actualType), "The type is not correct !" + "\nExpected: " + expectedType + "\nActual: " + actualType);
 
-
+        //Need to add FE validation
 
     }
 }
