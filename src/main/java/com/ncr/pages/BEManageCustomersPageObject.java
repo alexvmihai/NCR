@@ -50,6 +50,11 @@ public class BEManageCustomersPageObject extends BasePageObject<BEManageCustomer
         Thread.sleep(5000);
     }
 
+    public BENewCustomerPageObject addCustomer() throws IOException{
+        clickOn(addCustomerButton);
+        return new BENewCustomerPageObject(driver);
+    }
+
 
 
 }

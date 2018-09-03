@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6d0ed80b-7ad8-4d53-9cd0-f5e67dd6e327" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncr/pages/GmailPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ncr/pages/GmailPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateCarerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateCarerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ncr/base/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/BEManageCustomersPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ncr/pages/BEManageCustomersPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/GmailPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ncr/pages/GmailPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CreateCarerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CreateCarerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <manually-removed-from-ignored>
@@ -35,21 +26,21 @@
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="html" value="1" />
-          <entry key="java" value="79" />
+          <entry key="java" value="85" />
           <entry key="xml" value="8" />
           <entry key="xsl" value="1" />
         </counts>
@@ -58,19 +49,19 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="79" />
+          <entry key="JAVA" value="85" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4457" />
+          <entry key="java" value="4614" />
           <entry key="xml" value="367" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4457" />
+          <entry key="JAVA" value="4614" />
           <entry key="XML" value="367" />
         </counts>
       </usages-collector>
@@ -79,46 +70,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="63" selection-start-line="63" selection-end-line="67" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/RetryAnalyzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CreateCarerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1717">
-              <caret line="107" column="76" selection-start-line="107" selection-start-column="64" selection-end-line="107" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/IARegisterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/GmailPageObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="265" selection-start-line="17" selection-start-column="265" selection-end-line="17" selection-end-column="265" />
+            <state relative-caret-position="425">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,47 +84,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="37" column="91" selection-start-line="37" selection-start-column="91" selection-end-line="37" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/BasePageObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-              <folding>
-                <element signature="e#1539#1540#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CreateRegimenTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="408">
+              <caret line="52" column="68" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="493">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -177,8 +105,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="XSLT Stylesheet" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -188,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/DashboardIAPageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/LoginPageObject.java" />
         <option value="$PROJECT_DIR$/NHSNCR.iml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -225,8 +152,6 @@
         <option value="$PROJECT_DIR$/src/test/java/IARegisterTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/CreateCarerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
@@ -239,6 +164,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java" />
       </list>
     </option>
   </component>
@@ -265,7 +193,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2206" />
     <option name="y" value="-21" />
     <option name="width" value="1440" />
@@ -279,7 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -382,12 +310,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535723032946" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535978640791" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -416,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CreateRegimenTest">
+  <component name="RunManager" selected="TestNG.BEHCPRegisterTest">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -462,10 +390,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateCarerTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BEHCPRegisterTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NHSNCR" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CreateCarerTest" />
+      <option name="MAIN_CLASS_NAME" value="BEHCPRegisterTest" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -527,18 +455,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.D:/NHSNCR/src/test/resources/testng.xml (1)" />
-      <item itemvalue="TestNG.CreateCarerTest" />
       <item itemvalue="TestNG.CreateRegimenTest" />
       <item itemvalue="TestNG.PrintRegimenTest" />
       <item itemvalue="TestNG.IARegisterTest" />
+      <item itemvalue="TestNG.BEHCPRegisterTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BEHCPRegisterTest" />
         <item itemvalue="TestNG.CreateRegimenTest" />
         <item itemvalue="TestNG.PrintRegimenTest" />
         <item itemvalue="TestNG.IARegisterTest" />
         <item itemvalue="TestNG.D:/NHSNCR/src/test/resources/testng.xml (1)" />
-        <item itemvalue="TestNG.CreateCarerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -556,9 +484,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__NHSNCR_src_test_resources_testng_xml_(1) - 2018.08.30 at 17h 40m 55s.xml">
-      <configuration name="D:/NHSNCR/src/test/resources/testng.xml (1)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__NHSNCR_src_test_resources_testng_xml_(1) - 2018.08.30 at 18h 16m 54s.xml">
       <configuration name="D:/NHSNCR/src/test/resources/testng.xml (1)" configurationId="TestNG" />
     </history-entry>
@@ -586,6 +511,9 @@
     <history-entry file="CreateRegimenTest - 2018.08.31 at 16h 45m 35s.xml">
       <configuration name="CreateRegimenTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="BEHCPRegisterTest - 2018.09.03 at 15h 43m 37s.xml">
+      <configuration name="BEHCPRegisterTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -597,9 +525,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17004265" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23667377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -609,14 +538,14 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.73507464" visible="true" weight="0.37527114" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7345416" visible="true" weight="0.37527114" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77771854" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32897604" />
       <window_info anchor="bottom" id="Statistic" order="7" sideWeight="0.49840087" weight="0.32897604" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.26492536" side_tool="true" visible="true" weight="0.37527114" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.47707888" weight="0.32212582" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.26545843" side_tool="true" visible="true" weight="0.37527114" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4760128" weight="0.22559653" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4978678" weight="0.2875817" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.39872068" weight="0.32897604" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -626,7 +555,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Properties" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.090618335" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.06663113" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
@@ -869,13 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HCPRegisterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BackEndDashboardPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -920,6 +842,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/RetryAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CreateCarerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1717">
@@ -927,31 +856,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IARegisterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/GmailPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="17" column="265" selection-start-line="17" selection-start-column="265" selection-end-line="17" selection-end-column="265" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" column="91" selection-start-line="37" selection-start-column="91" selection-end-line="37" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -972,24 +880,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/RetryAnalyzer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="204">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IARegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="63" selection-start-line="63" selection-end-line="67" selection-end-column="5" />
+        <state relative-caret-position="462">
+          <caret line="63" selection-start-line="63" selection-start-column="2" selection-end-line="67" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/HCPRegisterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="485">
+          <caret line="54" column="44" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="54" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="52" column="68" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
