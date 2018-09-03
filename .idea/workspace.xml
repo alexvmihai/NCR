@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6d0ed80b-7ad8-4d53-9cd0-f5e67dd6e327" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncr/pages/BENewCustomerPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ncr/pages/BENewCustomerPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <manually-removed-from-ignored>
@@ -40,7 +40,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="html" value="1" />
-          <entry key="java" value="85" />
+          <entry key="java" value="89" />
           <entry key="xml" value="8" />
           <entry key="xsl" value="1" />
         </counts>
@@ -49,19 +49,19 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="85" />
+          <entry key="JAVA" value="89" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4614" />
+          <entry key="java" value="6441" />
           <entry key="xml" value="367" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4614" />
+          <entry key="JAVA" value="6441" />
           <entry key="XML" value="367" />
         </counts>
       </usages-collector>
@@ -69,11 +69,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="392">
+              <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,18 +82,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BENewCustomerPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="52" column="68" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
+            <state relative-caret-position="392">
+              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2280#2281#0" expanded="true" />
+                <element signature="e#2318#2319#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="-33">
               <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
@@ -116,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/LoginPageObject.java" />
         <option value="$PROJECT_DIR$/NHSNCR.iml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
@@ -164,9 +168,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/BENewCustomerPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java" />
       </list>
     </option>
   </component>
@@ -315,7 +320,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535978640791" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535986175636" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -463,9 +468,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.BEHCPRegisterTest" />
+        <item itemvalue="TestNG.IARegisterTest" />
         <item itemvalue="TestNG.CreateRegimenTest" />
         <item itemvalue="TestNG.PrintRegimenTest" />
-        <item itemvalue="TestNG.IARegisterTest" />
         <item itemvalue="TestNG.D:/NHSNCR/src/test/resources/testng.xml (1)" />
       </list>
     </recent_temporary>
@@ -484,12 +489,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__NHSNCR_src_test_resources_testng_xml_(1) - 2018.08.30 at 18h 16m 54s.xml">
-      <configuration name="D:/NHSNCR/src/test/resources/testng.xml (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PrintRegimenTest - 2018.08.31 at 13h 54m 51s.xml">
-      <configuration name="PrintRegimenTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="IARegisterTest - 2018.08.31 at 14h 34m 04s.xml">
       <configuration name="IARegisterTest" configurationId="TestNG" />
     </history-entry>
@@ -512,6 +511,12 @@
       <configuration name="CreateRegimenTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="BEHCPRegisterTest - 2018.09.03 at 15h 43m 37s.xml">
+      <configuration name="BEHCPRegisterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="IARegisterTest - 2018.09.03 at 17h 05m 13s.xml">
+      <configuration name="IARegisterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BEHCPRegisterTest - 2018.09.03 at 17h 06m 07s.xml">
       <configuration name="BEHCPRegisterTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -538,14 +543,14 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7345416" visible="true" weight="0.37527114" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.73400855" visible="true" weight="0.37527114" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77771854" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32897604" />
       <window_info anchor="bottom" id="Statistic" order="7" sideWeight="0.49840087" weight="0.32897604" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.26545843" side_tool="true" visible="true" weight="0.37527114" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4760128" weight="0.22559653" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.26599148" side_tool="true" visible="true" weight="0.37527114" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.47547975" weight="0.29392624" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4978678" weight="0.2875817" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.39872068" weight="0.32897604" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -690,13 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/IAProfilePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -887,13 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IARegisterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -908,27 +899,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="54" column="51" lean-forward="true" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/IAProfilePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="52" column="68" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
+        <state relative-caret-position="592">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IARegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="43" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BENewCustomerPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#2318#2319#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="-33">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
