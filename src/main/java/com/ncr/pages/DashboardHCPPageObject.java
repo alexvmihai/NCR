@@ -53,4 +53,10 @@ public class DashboardHCPPageObject extends BasePageObject<DashboardHCPPageObjec
         clickOn(createPatientB);
         return new PatientRegisterPageObject(driver);
     }
+
+    public String getCurrentURL (){
+        String url = driver.getCurrentUrl();
+        return url;
+    }
+
 }

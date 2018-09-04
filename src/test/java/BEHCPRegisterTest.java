@@ -3,6 +3,7 @@ import com.ncr.pages.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import javax.xml.bind.SchemaOutputResolver;
 import java.io.IOException;
 
 public class BEHCPRegisterTest extends BaseTest {
@@ -34,7 +35,7 @@ public class BEHCPRegisterTest extends BaseTest {
         String firstname = "Auto_Firstname" + Random;
         String lastname = "Auto_Lastname" + Random;
         String password = "Ncare1234/";
-        newHCP.fillForm("Admin", "HCP", "NCare Test Hospital", firstname, lastname, email, password);
+        newHCP.fillForm("Main Website", "HCP", "NCare Test Hospital", firstname, lastname, email, password);
         BECustomerInfoPageObject infoPage = newHCP.saveContinue();
         infoPage.waitForPageToLoad();
         String expectedSaveMsg = "The customer has been saved.";
@@ -46,8 +47,29 @@ public class BEHCPRegisterTest extends BaseTest {
         String expectedType = "HCP";
         String actualType = infoPage.getCustomerType();
         Assert.assertTrue(expectedType.equals(actualType), "The type is not correct !" + "\nExpected: " + expectedType + "\nActual: " + actualType);
+        System.out.println("The account is: " + email);
 
-        //Need to add FE validation
+        //FE validation
+
+        HomepageObject homepage = new HomepageObject(driver);
+        homepage.openHomepage();
+        homepage.acceptPrompt();
+        homepage.waitForPageToLoad();
+        LoginPageObject loginpage = homepage.openLoginPage();
+        loginpage.waitForPageToLoad();
+        loginpage.typeEmail(email);
+        loginpage.typePass(password);
+        DashboardHCPPageObject dashboardFE = loginpage.submit();
+        dashboardFE.waitForPageToLoad();
+        String welcomeMsg = dashboardFE.getWelcomeText();
+        Assert.assertTrue(welcomeMsg.contains(firstname), "The firstname is not present in the welcome msg !");
+        Assert.assertTrue(welcomeMsg.contains(lastname), "The lastname is not present in the welcome msg !");
+        String url = dashboardFE.getCurrentURL();
+        String url2 = url.substring(url.length() - 4);
+        Assert.assertTrue(url2.equalsIgnoreCase("hcp/"), "The url is not correct !");
+
+
+
 
     }
 }

@@ -55,6 +55,7 @@ public class BECustomerInfoPageObject extends BasePageObject<BECustomerInfoPageO
     }
 
     public String getCustomerType(){
+        waitForVisibilityOf(typeF);
         Select select = new Select(driver.findElement(By.cssSelector("#_accountcustomer_type")));
         WebElement type = select.getFirstSelectedOption();
         String customerType = type.getText();
