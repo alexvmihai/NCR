@@ -3,6 +3,7 @@ package com.ncr.pages;
 import com.ncr.base.BasePageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import java.io.IOException;
 
@@ -28,6 +29,7 @@ public class GmailPageObject extends BasePageObject<GmailPageObject> {
     private By doneB = By.cssSelector(".yKBrKe > div:nth-child(1) > content:nth-child(3)");
     private By composeB = By.cssSelector(".T-I-KE");
     private By gmailHeader = By.cssSelector("img.gb_Wa");
+    private By searchBox = By.cssSelector("input[placeholder=\"Search mail\"]");
 
 
 
@@ -38,8 +40,8 @@ public class GmailPageObject extends BasePageObject<GmailPageObject> {
         getPage(url);
     }
 
-    public void waitForHomepageToLoad(){
-        waitForVisibilityOf(header);
+    public void waitForHomepageToLoad() throws InterruptedException{
+        waitForVisibilityOf(searchBox);
     }
 
     public void submitEmail() throws IOException, InterruptedException {

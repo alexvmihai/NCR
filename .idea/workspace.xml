@@ -3,119 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6d0ed80b-7ad8-4d53-9cd0-f5e67dd6e327" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncr/pages/DashboardHCPPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ncr/pages/DashboardHCPPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/base/BasePageObject$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/base/BasePageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/base/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/base/RetryAnalyzer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/base/TestListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/BECustomerInfoPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/BEManageCustomersPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/BENewCustomerPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/BackEndDashboardPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/BackEndLoginPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/DashboardHCPPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/DashboardIAPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/ForgotPasswordPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/GmailPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/HomepageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/IAProfilePageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/LoginPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/NutritionProductsPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/PDFPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/PatientConfirmationPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/PatientDetailsPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/PatientRegisterPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/RegimenSavedPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/RegimenStep1PageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/RegimenStep2PageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/RegisterPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/pages/RegistrationSuccessPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/CreateCarerTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/CreateCarerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/CreatePatientTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/CreatePatientTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/CreateRegimenTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/CreateRegimenTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/HCPRegisterTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/HCPRegisterTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/IARegisterTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/IARegisterTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/LoginTestNegative.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/LoginTestNegative.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/LoginTestPositive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/LoginTestPositive.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/NutritionProductsTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/NutritionProductsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/OpenHomepageTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/OpenHomepageTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/PrintRegimenTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/PrintRegimenTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-CreateCarerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-CreatePatientTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-CreateRegimenTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-HCPRegisterTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-IARegisterTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-LoginTestNegative.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-LoginTestPositiveHCP.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-NutritionProductsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-OpenHomepageTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-PrintRegimenTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/CreateCarerTest.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/CreatePatientTest.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/CreateRegimenTest.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/HCPRegisterTest.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/IARegisterTest.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/LoginTestNegative.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/LoginTestPositive.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/NutritionProductsTest.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/OpenHomepageTest.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/PrintRegimenTest.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Smoke/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BEHCPRegisterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CreateCarerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CreatePatientTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CreateRegimenTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HCPRegisterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/IARegisterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTestNegative.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTestPositiveHCP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/NutritionProductsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/OpenHomepageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PrintRegimenTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncr/pages/GmailPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ncr/pages/GmailPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IARegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IARegisterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <manually-removed-from-ignored>
@@ -133,26 +24,27 @@
     <session id="-633308983">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="html" value="1" />
-          <entry key="java" value="94" />
+          <entry key="java" value="104" />
           <entry key="xml" value="8" />
           <entry key="xsl" value="1" />
         </counts>
@@ -161,19 +53,19 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="94" />
+          <entry key="JAVA" value="104" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7605" />
+          <entry key="java" value="7997" />
           <entry key="xml" value="367" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7605" />
+          <entry key="JAVA" value="7997" />
           <entry key="XML" value="367" />
         </counts>
       </usages-collector>
@@ -181,41 +73,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="527">
+              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1408#1409#0" expanded="true" />
+                <element signature="e#1450#1451#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/DashboardHCPPageObject.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/GmailPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="323">
+              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LoginTestPositiveHCP.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BackEndDashboardPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="38" selection-start-line="17" selection-start-column="8" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="581">
+              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+            <state relative-caret-position="422">
+              <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="67" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -237,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
@@ -259,15 +151,11 @@
         <option value="$PROJECT_DIR$/src/test/java/NutritionProductsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/NutritionProductsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTestNegative.java" />
-        <option value="$PROJECT_DIR$/src/test/java/IARegisterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/IARegisterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/HCPRegisterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTestPositiveHCP.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreatePatientTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreateRegimenTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrintRegimenTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/IARegisterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/IARegisterTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/CreateCarerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
@@ -275,9 +163,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/GmailPageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/RetryAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
@@ -285,9 +170,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/BENewCustomerPageObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/DashboardHCPPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IARegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IARegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IARegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IARegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/BackEndLoginPageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/GmailPageObject.java" />
       </list>
     </option>
   </component>
@@ -315,8 +208,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2277" />
-    <option name="y" value="-8" />
+    <option name="x" value="2170" />
+    <option name="y" value="-7" />
     <option name="width" value="1440" />
     <option name="height" value="780" />
   </component>
@@ -430,18 +323,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536062013380" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536565176159" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.445977" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -465,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BEHCPRegisterTest">
+  <component name="RunManager" selected="TestNG.IARegisterTest">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -583,8 +476,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BEHCPRegisterTest" />
         <item itemvalue="TestNG.IARegisterTest" />
+        <item itemvalue="TestNG.BEHCPRegisterTest" />
         <item itemvalue="TestNG.CreateRegimenTest" />
         <item itemvalue="TestNG.PrintRegimenTest" />
         <item itemvalue="TestNG.D:/NHSNCR/src/test/resources/testng.xml (1)" />
@@ -605,12 +498,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BEHCPRegisterTest - 2018.09.04 at 12h 59m 22s.xml">
-      <configuration name="BEHCPRegisterTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BEHCPRegisterTest - 2018.09.04 at 13h 00m 44s.xml">
-      <configuration name="BEHCPRegisterTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="BEHCPRegisterTest - 2018.09.04 at 13h 08m 34s.xml">
       <configuration name="BEHCPRegisterTest" configurationId="TestNG" />
     </history-entry>
@@ -635,6 +522,12 @@
     <history-entry file="BEHCPRegisterTest - 2018.09.04 at 14h 46m 44s.xml">
       <configuration name="BEHCPRegisterTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="BEHCPRegisterTest - 2018.09.04 at 14h 51m 23s.xml">
+      <configuration name="BEHCPRegisterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="IARegisterTest - 2018.09.07 at 18h 04m 25s.xml">
+      <configuration name="IARegisterTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -647,8 +540,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23933902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24466951" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -658,14 +552,14 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7329424" visible="true" weight="0.30585682" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.73240936" visible="true" weight="0.30585682" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77771854" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32897604" />
-      <window_info anchor="bottom" id="Statistic" order="7" sideWeight="0.49840087" weight="0.32897604" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.26705757" side_tool="true" visible="true" weight="0.30585682" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4738806" weight="0.29392624" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.3286334" />
+      <window_info anchor="bottom" id="Statistic" order="7" sideWeight="0.49840087" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5271855" side_tool="true" weight="0.29392624" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4728145" weight="0.29392624" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4978678" weight="0.2875817" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.39872068" weight="0.32897604" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -675,7 +569,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Properties" order="6" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="7" visible="true" weight="0.06663113" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.06663113" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
@@ -775,13 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BackEndLoginPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -897,13 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BackEndDashboardPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testngGrid.xml.xsl" />
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/Smoke/HCPRegisterTest.html" />
     <entry file="file://$PROJECT_DIR$/src/test/java/PrintRegimenTest.java">
@@ -941,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/GmailPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="265" selection-start-line="17" selection-start-column="265" selection-end-line="17" selection-end-column="265" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/BasePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -972,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="63" selection-start-line="63" selection-start-column="2" selection-end-line="67" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HCPRegisterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
@@ -986,34 +852,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="54" column="51" lean-forward="true" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/IAProfilePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BENewCustomerPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IARegisterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1038,13 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/DashboardHCPPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
@@ -1052,13 +887,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BEManageCustomersPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="442">
+          <caret line="54" column="51" lean-forward="true" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BENewCustomerPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BEHCPRegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="67" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BackEndLoginPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BackEndDashboardPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IARegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BECustomerInfoPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding>
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/GmailPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
         </state>
       </provider>
     </entry>

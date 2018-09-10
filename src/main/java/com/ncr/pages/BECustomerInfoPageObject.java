@@ -23,13 +23,13 @@ public class BECustomerInfoPageObject extends BasePageObject<BECustomerInfoPageO
         super(driver);
     }
 
-    public void waitForPageToLoad(){
+    public void waitForPageToLoad() {
         waitForVisibilityOf(nameHeader);
         waitForVisibilityOf(deleteCustomerButton);
         waitForVisibilityOf(accountInfo);
     }
 
-    public String getHeaderText(){
+    public String getHeaderText() {
         return getText(nameHeader);
     }
 
@@ -39,7 +39,7 @@ public class BECustomerInfoPageObject extends BasePageObject<BECustomerInfoPageO
         Thread.sleep(6000);
     }
 
-    public void setActive(){
+    public void setActive() {
         Select select = new Select(driver.findElement(By.cssSelector("#_accountstatus")));
         select.selectByVisibleText("Active");
     }
@@ -49,12 +49,12 @@ public class BECustomerInfoPageObject extends BasePageObject<BECustomerInfoPageO
         Thread.sleep(15000);
     }
 
-    public String getSuccessMessage(){
+    public String getSuccessMessage() {
         waitForVisibilityOf(successMessage);
         return getText(successMessage);
     }
 
-    public String getCustomerType(){
+    public String getCustomerType() {
         waitForVisibilityOf(typeF);
         Select select = new Select(driver.findElement(By.cssSelector("#_accountcustomer_type")));
         WebElement type = select.getFirstSelectedOption();
@@ -62,7 +62,7 @@ public class BECustomerInfoPageObject extends BasePageObject<BECustomerInfoPageO
         return customerType;
     }
 
-    public String getBEemail(){
+    public String getBEemail() {
         WebElement email = driver.findElement(By.cssSelector("#_accountemail"));
         String value = email.getAttribute("value");
         return value;
