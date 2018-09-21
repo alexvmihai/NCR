@@ -33,7 +33,6 @@ public class SearchPatientTest extends BaseTest {
         patientDetails.waitForPageToLoad();
         String expectedPatientName = patientDetails.getPatientName();
         Assert.assertTrue(patientName.equals(expectedPatientName), "The patient name is not correct !" + "\nExpected: " + expectedPatientName + "\nActual: " + patientName);
-
         //test the search button flow
         DashboardHCPPageObject dashboard3 = patientDetails.selectDashboardTab();
         dashboard3.waitForPageToLoad();
@@ -42,8 +41,7 @@ public class SearchPatientTest extends BaseTest {
         patientsTab2.waitForPageToLoad();
         String actualResult = patientsTab2.getPatientName();
         Assert.assertTrue(actualResult.equals(patientName), "Patient name not correct on the result list !" + "\nExpected: " + patientName + "\nActual: " + actualResult);
-
-
+        System.out.println("Test passed !");
 
 
 
