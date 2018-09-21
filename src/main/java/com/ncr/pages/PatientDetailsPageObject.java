@@ -17,6 +17,7 @@ public class PatientDetailsPageObject extends BasePageObject<PatientDetailsPageO
     private By editCarerB = By.cssSelector("#carer-form-update-btn");
     private By successMsg = By.cssSelector(".success-msg > ul:nth-child(1) > li:nth-child(1)");
     private By emailF = By.cssSelector(".carer_email > label:nth-child(1)");
+    private By dashboardTab = By.cssSelector(".item-dashboard > a:nth-child(1)");
 
     //Carer form
     private By firstnameF = By.cssSelector(".carer_firstname > input:nth-child(1)");
@@ -63,6 +64,11 @@ public class PatientDetailsPageObject extends BasePageObject<PatientDetailsPageO
 
     public String getEmail (){
         return getText(emailF);
+    }
+
+    public DashboardHCPPageObject selectDashboardTab () throws IOException {
+        clickOn(dashboardTab);
+        return new DashboardHCPPageObject(driver);
     }
 
 

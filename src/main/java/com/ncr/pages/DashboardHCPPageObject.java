@@ -18,6 +18,14 @@ public class DashboardHCPPageObject extends BasePageObject<DashboardHCPPageObjec
     private By createRegimenB = By.cssSelector("button.button:nth-child(2)");
     private By searchBox = By.cssSelector("#patientsearch");
     private By breadcrumbs = By.cssSelector(".breadcrumbs");
+    private By patientSearchTab = By.cssSelector("#type_3 > a:nth-child(1)");
+    private By regimenSearchTab = By.cssSelector("#type_11 > a:nth-child(1)");
+    private By patientSearchBox = By.cssSelector("#patientsearch");
+    private By regimenSearchBox = By.cssSelector("#patientsearch");
+    private By searchButton = By.cssSelector("#patientsearch_form > div:nth-child(1) > button:nth-child(2)");
+    private By patientsTab = By.cssSelector(".item-patients > a:nth-child(1)");
+    private By searchFirstResult = By.cssSelector(".selected > a:nth-child(1)");
+
 
 
 
@@ -57,6 +65,26 @@ public class DashboardHCPPageObject extends BasePageObject<DashboardHCPPageObjec
     public String getCurrentURL (){
         String url = driver.getCurrentUrl();
         return url;
+    }
+
+    public PatientsTabPageObject selectPatientsTab () throws IOException{
+        clickOn(patientsTab);
+        return new PatientsTabPageObject(driver);
+    }
+
+    public void searchPatient (String patientName) throws InterruptedException {
+        type(patientName, patientSearchBox);
+        Thread.sleep(4000);
+    }
+
+    public PatientDetailsPageObject clickAutocomplete () throws IOException {
+        clickOn(searchFirstResult);
+        return new PatientDetailsPageObject(driver);
+    }
+
+    public PatientsTabPageObject clickSearch () throws IOException {
+        clickOn(searchButton);
+        return new PatientsTabPageObject(driver);
     }
 
 }
