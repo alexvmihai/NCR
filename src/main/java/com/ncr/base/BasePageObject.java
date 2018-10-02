@@ -190,14 +190,13 @@ public class BasePageObject<T> extends BaseTest {
 
     }
 
-    //write the HCP email to a file
-    public void writeHCP(String hcpEmail){
-        String title = "HCP_accounts";
+    //write the customer to a file
+    public void writeCustomer(String customer, String fileTitle, String pathName, String variableName){
         String date = new SimpleDateFormat("dd.MM.yyyy_HH.mm.ss").format(new Date());
-        File fileName = new File("D:\\Access Credentials\\HCP_email\\" + title + date +".txt");
+        File fileName = new File( pathName + fileTitle + date +".txt");
         try{
             FileWriter fw = new FileWriter(fileName, true);
-            fw.write("hcp_email=" + hcpEmail);
+            fw.write(variableName + "=" + customer);
             fw.close();
 
         } catch (IOException e){
@@ -205,19 +204,6 @@ public class BasePageObject<T> extends BaseTest {
         }
     }
 
-    //write the HCP lastname to a file
-    public void writeHCPname(String lastname){
-        String title = "HCP_lastname";
-        String date = new SimpleDateFormat("dd.MM.yyyy_HH.mm.ss").format(new Date());
-        File fileName = new File("D:\\Access Credentials\\HCP_lastname\\" + title + date + ".txt");
-        try{
-            FileWriter fw = new FileWriter(fileName, true);
-            fw.write("lastname=" + lastname);
-            fw.close();
-        }catch (IOException e){
-            e.printStackTrace();
-        }
-    }
 
     //get the last modified file from a folder
     public File lastModified(String dir){
@@ -241,19 +227,13 @@ public class BasePageObject<T> extends BaseTest {
         return choice;
     }
 
-    public String readHCP(File file) throws IOException{
+    public String readCustomer(File file, String variable) throws IOException{
         Properties properties = new Properties();
         properties.load(new FileInputStream(file));
-        String email = properties.getProperty("hcp_email");
+        String email = properties.getProperty(variable);
         return email;
     }
 
-    public String readHCPlastname(File file) throws IOException{
-        Properties properties = new Properties();
-        properties.load(new FileInputStream(file));
-        String lastname = properties.getProperty("lastname");
-        return lastname;
-    }
 
     public String[] getMemberCredentials(String filePath) throws IOException{
         Properties properties = new Properties();

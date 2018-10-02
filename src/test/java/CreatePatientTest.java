@@ -17,13 +17,13 @@ public class CreatePatientTest extends BaseTest {
         LoginPageObject loginpage = homepage.openLoginPage();
         loginpage.waitForPageToLoad();
         File latestFile = loginpage.lastModified("D:\\Access Credentials\\HCP_email\\");
-        String username = loginpage.readHCP(latestFile);
+        String username = loginpage.readCustomer(latestFile, "hcp_email");
         loginpage.typeEmail(username);
         loginpage.typePass("Smoketest1234/");
         DashboardHCPPageObject dashboard = loginpage.submit();
         dashboard.waitForPageToLoad();
         File lastModified = dashboard.lastModified("D:\\Access Credentials\\HCP_lastname\\");
-        String hcpLastname = dashboard.readHCPlastname(lastModified);
+        String hcpLastname = dashboard.readCustomer(lastModified, "lastname");
         String expectedMsg = "Welcome, Mr Alex " + hcpLastname + "!";
         String actualMsg = dashboard.getWelcomeText();
         Assert.assertTrue(expectedMsg.equals(actualMsg), "Welcome message not correct !" + "\nExpected: " + expectedMsg + "\nActual: " + actualMsg);
@@ -37,6 +37,7 @@ public class CreatePatientTest extends BaseTest {
         String email = "amihai_test" + Random + "@mailinator.com";
         String firstname = "Firstname" + Random;
         String lastname = "Lastname" + Random;
+        String fullName = firstname + " " + lastname;
         String postcode = "";
         if(setEnv() == "PROD") {
             postcode = "0150";

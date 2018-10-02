@@ -1,6 +1,5 @@
 import com.ncr.base.BaseTest;
 import com.ncr.pages.*;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -18,13 +17,13 @@ public class CreateRegimenTest extends BaseTest {
         LoginPageObject loginpage = homepage.openLoginPage();
         loginpage.waitForPageToLoad();
         File latestFile = loginpage.lastModified("D:\\Access Credentials\\HCP_email\\");
-        String username = loginpage.readHCP(latestFile);
+        String username = loginpage.readCustomer(latestFile, "hcp_email");
         loginpage.typeEmail(username);
         loginpage.typePass("Smoketest1234/");
         DashboardHCPPageObject dashboard = loginpage.submit();
         dashboard.waitForPageToLoad();
         File lastModified = dashboard.lastModified("D:\\Access Credentials\\HCP_lastname\\");
-        String hcpLastname = dashboard.readHCPlastname(lastModified);
+        String hcpLastname = dashboard.readCustomer(lastModified, "lastname");
         String expectedMsg = "Welcome, Mr Alex " + hcpLastname + "!";
         String actualMsg = dashboard.getWelcomeText();
         Assert.assertTrue(expectedMsg.equals(actualMsg), "Welcome message not correct !" + "\nExpected: " + expectedMsg + "\nActual: " + actualMsg);
@@ -38,6 +37,7 @@ public class CreateRegimenTest extends BaseTest {
         String email = "amihai_test" + Random + "@mailinator.com";
         String firstname = "Firstname" + Random;
         String lastname = "Lastname" + Random;
+        String fullName = firstname + " " + lastname;
         String postcode = "";
         if(setEnv() == "PROD") {
             postcode = "0150";
@@ -85,6 +85,7 @@ public class CreateRegimenTest extends BaseTest {
         String expectedText = "This regimen is complete and active.\n" +
                 "You will be able to edit it later if required.";
         String actualText = regimenSavedPage.getConfirmationText();
+        patientConfirmPage.writeCustomer(fullName, "Patients", "D:\\Access Credentials\\Patient_fullname\\", "fullname");
         Assert.assertTrue(expectedText.equals(actualText), "The confirmation message is not correct !" + "\nExpected: " + expectedText + "\nActual: " + actualText);
         System.out.println("Regimen created successfully !");
 

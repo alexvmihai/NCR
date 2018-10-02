@@ -9,7 +9,7 @@
     </properties>
 
     <groupId>com.dice.test</groupId>
-    <artifactId>Automation</artifactId>
+    <artifactId>Automation_NHSNCR</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>

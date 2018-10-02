@@ -77,7 +77,7 @@ public class DashboardHCPPageObject extends BasePageObject<DashboardHCPPageObjec
         Thread.sleep(4000);
     }
 
-    public PatientDetailsPageObject clickAutocomplete () throws IOException {
+    public PatientDetailsPageObject clickPatientAutocomplete() throws IOException {
         clickOn(searchFirstResult);
         return new PatientDetailsPageObject(driver);
     }
@@ -86,5 +86,13 @@ public class DashboardHCPPageObject extends BasePageObject<DashboardHCPPageObjec
         clickOn(searchButton);
         return new PatientsTabPageObject(driver);
     }
+
+    public void searchRegimen(String patientName) throws InterruptedException{
+        clickOn(regimenSearchTab);
+        type(patientName, patientSearchBox);
+        Thread.sleep(4000);
+    }
+
+
 
 }

@@ -2,18 +2,15 @@ import com.ncr.base.BaseTest;
 import com.ncr.pages.DashboardHCPPageObject;
 import com.ncr.pages.HomepageObject;
 import com.ncr.pages.LoginPageObject;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
 
-/**
- * Created by alex.mihai on 4/3/2018.
- */
-public class LoginTestPositiveHCP extends BaseTest{
+public class SearchRegimenTest extends BaseTest {
+
     @Test
-    public void loginTestPositive() throws IOException, InterruptedException {
+    public void SearchRegimenTest() throws InterruptedException, IOException {
         driver.manage().deleteAllCookies();
         HomepageObject homepage = new HomepageObject(driver);
         homepage.openHomepage();
@@ -27,11 +24,8 @@ public class LoginTestPositiveHCP extends BaseTest{
         loginpage.typePass("Smoketest1234/");
         DashboardHCPPageObject dashboard = loginpage.submit();
         dashboard.waitForPageToLoad();
-        File lastModified = dashboard.lastModified("D:\\Access Credentials\\HCP_lastname\\");
-        String hcpLastname = dashboard.readCustomer(lastModified, "lastname");
-        String expectedMsg = "Welcome, Mr Alex " + hcpLastname + "!";
-        String actualMsg = dashboard.getWelcomeText();
-        Assert.assertTrue(expectedMsg.equals(actualMsg), "Welcome message not correct !" + "\nExpected: " + expectedMsg + "\nActual: " + actualMsg);
-        System.out.println("Test passed !");
+        File lastModified = dashboard.lastModified("D:\\Access Credentials\\Patient_fullname\\");
+        String patientName = dashboard.readCustomer(lastModified, "fullname");
+        dashboard.searchRegimen(patientName);
     }
 }

@@ -54,6 +54,11 @@
             <class name ="CreateCarerTest"></class>
         </classes>
     </test>
+    <test name = "SearchPatientTest">
+        <classes>
+            <class name = "SearchPatientTest"></class>
+        </classes>
+    </test>
 
 </suite>
 

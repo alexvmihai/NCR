@@ -18,7 +18,7 @@ public class SearchPatientTest extends BaseTest {
         LoginPageObject loginpage = homepage.openLoginPage();
         loginpage.waitForPageToLoad();
         File latestFile = loginpage.lastModified("D:\\Access Credentials\\HCP_email\\");
-        String username = loginpage.readHCP(latestFile);
+        String username = loginpage.readCustomer(latestFile, "hcp_email");
         loginpage.typeEmail(username);
         loginpage.typePass("Smoketest1234/");
         DashboardHCPPageObject dashboard = loginpage.submit();
@@ -29,7 +29,7 @@ public class SearchPatientTest extends BaseTest {
         DashboardHCPPageObject dashboard2 = patientsTab.selectDashboardTab();
         dashboard2.waitForPageToLoad();
         dashboard2.searchPatient(patientName);
-        PatientDetailsPageObject patientDetails = dashboard2.clickAutocomplete();
+        PatientDetailsPageObject patientDetails = dashboard2.clickPatientAutocomplete();
         patientDetails.waitForPageToLoad();
         String expectedPatientName = patientDetails.getPatientName();
         Assert.assertTrue(patientName.equals(expectedPatientName), "The patient name is not correct !" + "\nExpected: " + expectedPatientName + "\nActual: " + patientName);

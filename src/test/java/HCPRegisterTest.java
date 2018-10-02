@@ -1,6 +1,5 @@
 import com.ncr.base.BaseTest;
 import com.ncr.pages.*;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -83,8 +82,8 @@ public class HCPRegisterTest extends BaseTest {
         String actualHCPMsg = dashboard2.getWelcomeText();
         Assert.assertTrue(expectedHCPMsg.equals(actualHCPMsg), "The dashboard message doesn't match !" + "\nExpected: " + expectedHCPMsg + "\nActual: " + actualHCPMsg);
         System.out.println("Your new account is: " + email + "\nPass: " + password);
-        dashboard2.writeHCP(email);
-        dashboard2.writeHCPname(lastname);
+        dashboard2.writeCustomer(email, "HCP_accounts", "D:\\Access Credentials\\HCP_email\\", "hcp_email");
+        dashboard2.writeCustomer(lastname, "HCP_lastname", "D:\\Access Credentials\\HCP_lastname\\", "lastname");
         System.out.println("Test passed !");
 
 
