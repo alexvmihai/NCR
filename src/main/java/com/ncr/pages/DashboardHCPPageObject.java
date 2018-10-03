@@ -98,6 +98,11 @@ public class DashboardHCPPageObject extends BasePageObject<DashboardHCPPageObjec
         return new RegimenDetailsPageObject(driver);
     }
 
+    public RegimenManagementPageObject clickSearchRegimenButton() throws IOException {
+        clickOn(searchButton);
+        return new RegimenManagementPageObject(driver);
+    }
+
 
 
 

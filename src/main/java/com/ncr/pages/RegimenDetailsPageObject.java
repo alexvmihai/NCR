@@ -14,6 +14,9 @@ public class RegimenDetailsPageObject extends BasePageObject<RegimenDetailsPageO
     private By cancelButton = By.cssSelector("div.cr-row-buttons:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)");
     private By regimenStatus = By.cssSelector(".rd-status");
     private By patientName = By.cssSelector(".patient-details > div:nth-child(1)");
+    private By dashboardTab = By.cssSelector(".item-dashboard > a:nth-child(1)");
+
+
 
     protected RegimenDetailsPageObject(WebDriver driver) throws IOException {
         super(driver);
@@ -36,6 +39,11 @@ public class RegimenDetailsPageObject extends BasePageObject<RegimenDetailsPageO
 
     public String getRegimenStatus(){
         return getText(regimenStatus);
+    }
+
+    public DashboardHCPPageObject clickDashboardTab() throws IOException {
+        clickOn(dashboardTab);
+        return new DashboardHCPPageObject(driver);
     }
 
 }
