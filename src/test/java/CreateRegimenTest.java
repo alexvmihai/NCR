@@ -89,7 +89,5 @@ public class CreateRegimenTest extends BaseTest {
         Assert.assertTrue(expectedText.equals(actualText), "The confirmation message is not correct !" + "\nExpected: " + expectedText + "\nActual: " + actualText);
         System.out.println("Regimen created successfully !");
 
-
-
     }
 }

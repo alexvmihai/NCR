@@ -2,6 +2,8 @@ import com.ncr.base.BaseTest;
 import com.ncr.pages.DashboardHCPPageObject;
 import com.ncr.pages.HomepageObject;
 import com.ncr.pages.LoginPageObject;
+import com.ncr.pages.RegimenDetailsPageObject;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -27,5 +29,15 @@ public class SearchRegimenTest extends BaseTest {
         File lastModified = dashboard.lastModified("D:\\Access Credentials\\Patient_fullname\\");
         String patientName = dashboard.readCustomer(lastModified, "fullname");
         dashboard.searchRegimen(patientName);
+        RegimenDetailsPageObject regimenDetailsPage = dashboard.clickRegimenAutocomplete();
+        regimenDetailsPage.waitForPageToLoad();
+        String actualTitle = regimenDetailsPage.getTitle();
+        String expectedTitle = "Regimen Details";
+        Assert.assertTrue(actualTitle.equals(expectedTitle), "The header title is not correct !" + "\nExpected: " + expectedTitle + "\nActual: " + actualTitle);
+        String actualName = regimenDetailsPage.getPatientName();
+        String expectedName = patientName;
+        Assert.assertTrue(expectedName.equals(actualName), "The patient name does not match !" + "\nExpected: " + expectedName + "\nActual: " + actualName);
+        System.out.println("Test passed !");
+
     }
 }

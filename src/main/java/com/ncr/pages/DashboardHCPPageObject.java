@@ -93,6 +93,14 @@ public class DashboardHCPPageObject extends BasePageObject<DashboardHCPPageObjec
         Thread.sleep(4000);
     }
 
+    public RegimenDetailsPageObject clickRegimenAutocomplete() throws IOException {
+        clickOn(searchFirstResult);
+        return new RegimenDetailsPageObject(driver);
+    }
+
+
+
+
 
 
 }
