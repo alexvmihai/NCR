@@ -42,7 +42,7 @@ public class CreateRegimenTest extends BaseTest {
         if(setEnv() == "PROD") {
             postcode = "0150";
         }else{
-            postcode = "3500";
+            postcode = "2000";
         }
         System.out.println("%%%%%%%%%%%%%%%%%%%% Postcode is: " + postcode);
         patientRegisterPage.fillRegisterForm(firstname, lastname, "10101910", email, "2039192931", "Red Hill 24", "Sidney",

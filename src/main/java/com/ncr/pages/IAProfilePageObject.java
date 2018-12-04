@@ -2,6 +2,7 @@ package com.ncr.pages;
 
 import com.ncr.base.BasePageObject;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
 import java.io.IOException;
@@ -30,6 +31,7 @@ public class IAProfilePageObject extends BasePageObject<IAProfilePageObject> {
     }
 
     public void waitForPageToLoad(){
+//        ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,-200)");
         waitForVisibilityOf(personalInfoTab);
         waitForVisibilityOf(manageIA);
         waitForVisibilityOf(archivedHCP);
