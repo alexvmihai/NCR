@@ -39,7 +39,7 @@ public class OpenHomepageTest extends BaseTest {
         Assert.assertTrue(expectedProductRangeText.equals(actualProductRangeText), "The Product Range text does not match !" + "\nExpected: " + expectedProductRangeText + "\nActual: " + actualProductRangeText);
         Assert.assertTrue(homePage.productsVisibility(), "Some products are not displayed !");
         String expectedFooterCopyrightText ="Medtronic, the Medtronic Logo and all other Medtronic brands and logos are trademarks owned by either Medtronic or a related company.\n" +
-                "© 2017 Nestlé Health Science. All rights reserved.";
+                "© 2018 Nestlé Health Science. All rights reserved.";
 
         String actualFooterText = homePage.getFooterCopyText();
         Assert.assertTrue(expectedFooterCopyrightText.equals(actualFooterText), "Footer Copyright text doesn't match !" + "\nExpected: " + expectedFooterCopyrightText + "\nActual: " + actualFooterText);

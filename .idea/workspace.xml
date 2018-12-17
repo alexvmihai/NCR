@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="df6ab969-bce1-44df-8cc5-ef1172438137" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncr/pages/IAProfilePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ncr/pages/IAProfilePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/geckodriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateRegimenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateRegimenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geckodriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SearchRegimenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SearchRegimenTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HCPRegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HCPRegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OpenHomepageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenHomepageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PrintRegimenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrintRegimenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncr/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ncr/base/BaseTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,41 +49,44 @@
     <session id="-633308983">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="35" />
-          <entry key="xml" value="4" />
+          <entry key="java" value="39" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="35" />
-          <entry key="XML" value="4" />
+          <entry key="JAVA" value="39" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3321" />
-          <entry key="xml" value="137" />
+          <entry key="java" value="3326" />
+          <entry key="xml" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3321" />
-          <entry key="XML" value="137" />
+          <entry key="JAVA" value="3326" />
+          <entry key="XML" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -93,17 +97,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="366">
               <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="67" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/IARegisterTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PrintRegimenTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="85">
+              <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/HCPRegisterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/OpenHomepageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BackEndDashboardPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -111,8 +151,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/IAProfilePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+            <state relative-caret-position="493">
+              <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -120,16 +160,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/BasePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="901">
               <caret line="73" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CreateRegimenTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
+            <state relative-caret-position="646">
               <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
             </state>
           </provider>
@@ -138,8 +178,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/RegimenStep2PageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="850">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -166,12 +206,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/PatientsTabPageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/PatientDetailsPageObject.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/HCPRegisterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BasePageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreateCarerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTestPositiveHCP.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PrintRegimenTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SearchPatientTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreatePatientTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
@@ -179,9 +216,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/DashboardHCPPageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/RegimenManagementPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/SearchRegimenTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncr/pages/IAProfilePageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreateRegimenTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/HCPRegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OpenHomepageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PrintRegimenTest.java" />
       </list>
     </option>
   </component>
@@ -208,7 +249,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -314,7 +355,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543939824231" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545060555927" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -330,21 +371,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchRegimenTest">
-    <configuration name="CreateRegimenTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PrintRegimenTest">
+    <configuration name="D:/NHSNCR/src/test/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NHSNCR" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CreateRegimenTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/NHSNCR/src/test/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HCPRegisterTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NHSNCR" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HCPRegisterTest" />
       <properties />
       <listeners />
       <method v="2">
@@ -361,6 +402,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OpenHomepageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NHSNCR" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OpenHomepageTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrintRegimenTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NHSNCR" />
       <option name="PACKAGE_NAME" value="" />
@@ -371,30 +422,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchRegimenTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NHSNCR" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchRegimenTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.CreateRegimenTest" />
       <item itemvalue="TestNG.D:/NHSNCR/src/test/resources/testng.xml" />
       <item itemvalue="TestNG.IARegisterTest" />
+      <item itemvalue="TestNG.HCPRegisterTest" />
+      <item itemvalue="TestNG.OpenHomepageTest" />
       <item itemvalue="TestNG.PrintRegimenTest" />
-      <item itemvalue="TestNG.SearchRegimenTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SearchRegimenTest" />
         <item itemvalue="TestNG.PrintRegimenTest" />
-        <item itemvalue="TestNG.CreateRegimenTest" />
-        <item itemvalue="TestNG.IARegisterTest" />
         <item itemvalue="TestNG.D:/NHSNCR/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.OpenHomepageTest" />
+        <item itemvalue="TestNG.HCPRegisterTest" />
+        <item itemvalue="TestNG.IARegisterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -412,42 +453,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HCPRegisterTest - 2018.10.05 at 16h 55m 56s.xml">
+    <history-entry file="D__NHSNCR_src_test_resources_testng_xml - 2018.12.17 at 15h 32m 30s.xml">
+      <configuration name="D:/NHSNCR/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HCPRegisterTest - 2018.12.17 at 15h 34m 58s.xml">
       <configuration name="HCPRegisterTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__NHSNCR_src_test_resources_testng_xml - 2018.10.18 at 16h 37m 44s.xml">
+    <history-entry file="HCPRegisterTest - 2018.12.17 at 15h 39m 28s.xml">
+      <configuration name="HCPRegisterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HCPRegisterTest - 2018.12.17 at 15h 43m 42s.xml">
+      <configuration name="HCPRegisterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenHomepageTest - 2018.12.17 at 15h 44m 29s.xml">
+      <configuration name="OpenHomepageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenHomepageTest - 2018.12.17 at 15h 46m 03s.xml">
+      <configuration name="OpenHomepageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__NHSNCR_src_test_resources_testng_xml - 2018.12.17 at 16h 43m 09s.xml">
       <configuration name="D:/NHSNCR/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__NHSNCR_src_test_resources_testng_xml - 2018.10.26 at 17h 39m 40s.xml">
-      <configuration name="D:/NHSNCR/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="PrintRegimenTest - 2018.12.17 at 17h 18m 05s.xml">
+      <configuration name="PrintRegimenTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IARegisterTest - 2018.12.04 at 17h 34m 42s.xml">
-      <configuration name="IARegisterTest" configurationId="TestNG" />
+    <history-entry file="PrintRegimenTest - 2018.12.17 at 17h 21m 55s.xml">
+      <configuration name="PrintRegimenTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IARegisterTest - 2018.12.04 at 17h 36m 15s.xml">
-      <configuration name="IARegisterTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="IARegisterTest - 2018.12.04 at 17h 37m 54s.xml">
-      <configuration name="IARegisterTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="IARegisterTest - 2018.12.04 at 17h 41m 09s.xml">
-      <configuration name="IARegisterTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateRegimenTest - 2018.12.04 at 17h 55m 50s.xml">
-      <configuration name="CreateRegimenTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateRegimenTest - 2018.12.04 at 18h 07m 03s.xml">
-      <configuration name="CreateRegimenTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PrintRegimenTest - 2018.12.04 at 18h 10m 14s.xml">
+    <history-entry file="PrintRegimenTest - 2018.12.17 at 17h 28m 27s.xml">
       <configuration name="PrintRegimenTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21641791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22707888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -537,31 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BackEndDashboardPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoginTestPositiveHCP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PrintRegimenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
         </state>
       </provider>
     </entry>
@@ -607,20 +627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HCPRegisterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="85" column="113" selection-start-line="85" selection-start-column="113" selection-end-line="85" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SearchRegimenTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,9 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -645,9 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,45 +662,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="67" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/BasePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/IARegisterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="289">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/IAProfilePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        <state relative-caret-position="493">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/RegimenStep2PageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/BasePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="901">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CreateRegimenTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="646">
           <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/RegimenStep2PageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/pages/BackEndDashboardPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HCPRegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OpenHomepageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncr/base/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="67" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PrintRegimenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
         </state>
       </provider>
     </entry>

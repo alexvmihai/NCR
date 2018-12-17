@@ -57,7 +57,7 @@ public class BaseTest  {
 
     @BeforeClass
     public String setEnv(){
-        String env = "PPRD";
+        String env = "PROD";
         return env;
     }
 

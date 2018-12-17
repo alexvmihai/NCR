@@ -42,7 +42,7 @@ public class HCPRegisterTest extends BaseTest {
         beLoginPage.typeUsername(credentials[0]);
         beLoginPage.typePassword(credentials[1]);
         BackEndDashboardPageObject dashboard = beLoginPage.login();
-        Thread.sleep(5000);
+        Thread.sleep(25000);
         if(dashboard.isPopUpPresent()){
             dashboard.closePopUp();
         } else {
